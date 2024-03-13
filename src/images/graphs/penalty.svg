@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="656" height="312">
+    <defs>
+        <style>
+            .cls-1,.cls-3{fill:#fff}.cls-1,.cls-2{font-size:10px}.cls-1,.cls-2,.cls-3{font-family:OpenSans,Open Sans}.cls-2{fill:#f8ba15}.cls-3{font-size:13px}.cls-5,.cls-7{fill:none}.cls-7{stroke:#fff}.cls-5{stroke:#2f3250}.cls-7{stroke-linecap:round}
+        </style>
+    </defs>
+    <g id="graph" transform="translate(0 105)">
+        <g id="numbers" transform="translate(0 -79.689)">
+            <g id="Group_6185" data-name="Group 6185" transform="translate(31.526 272.499)">
+                <text id="Submit_request" data-name="Submit request" class="cls-1" transform="translate(16.474 -4.81)"><tspan x="-16.558" y="0">Submit</tspan><tspan x="-17.935" y="16">request</tspan></text>
+                <text id="_15_minutes" data-name="15 minutes" class="cls-2" transform="translate(54.474 -36.81)"><tspan x="-26.025" y="0">15 minutes</tspan></text>
+                <text id="_1_Hour" data-name="1 Hour" class="cls-2" transform="translate(200.474 -36.81)"><tspan x="-15.977" y="0">1 Hour</tspan></text>
+                <text id="_11_Hours" data-name="11 Hours" class="cls-2" transform="translate(429.474 -36.81)"><tspan x="-21.221" y="0">11 Hours</tspan></text>
+                <text id="Min_wait_time" data-name="Min wait time" class="cls-1" transform="translate(89.474 -4.81)"><tspan x="-19.846" y="0">Min wait</tspan><tspan x="-10.486" y="16">time</tspan></text>
+                <text id="Target" class="cls-1" transform="translate(151.474 -4.81)"><tspan x="-14.897" y="0">Target</tspan></text>
+                <text id="After_target_mid_time" data-name="After target mid time" class="cls-1" transform="translate(253.474 -4.81)"><tspan x="-26.665" y="0">After target</tspan><tspan x="-20.764" y="16">mid time</tspan></text>
+                <text id="After_target_max_time" data-name="After target max time" class="cls-1" transform="translate(597.474 -4.81)"><tspan x="-26.665" y="0">After target</tspan><tspan x="-21.836" y="16">max time</tspan></text>
+            </g>
+            <text id="_5.00_" data-name="5%" class="cls-3" transform="translate(0 -11.311)"><tspan x="0" y="0">5.00%</tspan></text>
+            <text id="_4.00_" data-name="4%" class="cls-3" transform="translate(0 39.689)"><tspan x="0" y="0">4.00%</tspan></text>
+            <text id="_3.00_" data-name="3%" class="cls-3" transform="translate(0 90.689)"><tspan x="0" y="0">3.00%</tspan></text>
+            <text id="_2.00_" data-name="2%" class="cls-3" transform="translate(0 140.689)"><tspan x="0" y="0">2.00%</tspan></text>
+            <text id="_1.00_" data-name="1%" class="cls-3" transform="translate(0 191.689)"><tspan x="0" y="0">1.00%</tspan></text>
+            <text id="_0.00_" data-name="0%" class="cls-3" transform="translate(0 242.689)"><tspan x="0" y="0">0.00%</tspan></text>
+        </g>
+        <g id="lines" transform="translate(49.345 65.794)">
+            <g id="Group_6187" data-name="Group 6187" transform="translate(0 -195.293)">
+                <path id="Line_19" data-name="Line 19" transform="translate(-.346 289)" style="stroke:#fff;fill:none" d="M0 0h583"/>
+                <path id="Line_22" data-name="Line 22" class="cls-5" transform="translate(-1.029 237)" d="M0 0h583.684"/>
+                <path id="Line_192" data-name="Line 192" class="cls-5" transform="translate(-1.029 186)" d="M0 0h583.684"/>
+                <path id="Line_23" data-name="Line 23" class="cls-5" transform="translate(-1.029 134.999)" d="M0 0h583.684"/>
+                <path id="Line_24" data-name="Line 24" class="cls-5" transform="translate(-1.029 84)" d="M0 0h583.684"/>
+                <path id="Line_115" data-name="Line 115" class="cls-5" transform="translate(-1.345 33)" d="M0 0h584"/>
+            </g>
+            <g id="Group_8239" data-name="Group 8239" transform="translate(-49.345 -65.793)">
+                <path id="Line_204" data-name="Line 204" class="cls-5" transform="translate(48.5 -96.5)" d="M0 0v296"/>
+                <path id="Line_205" data-name="Line 205" class="cls-5" transform="translate(632 -96.5)" d="M0 0v296"/>
+            </g>
+            <g id="Group_6186" data-name="Group 6186" transform="translate(1.494 93.707)" style="opacity:.5">
+                <path id="Line_25" data-name="Line 25" class="cls-7" transform="translate(-2.339 -15.862)" d="M0 31.362V0"/>
+                <path id="Line_28" data-name="Line 28" class="cls-7" transform="translate(133.161 -16)" d="M0 30.903V0"/>
+                <path id="Line_193" data-name="Line 193" class="cls-7" transform="translate(237.161 -16)" d="M0 30.903V0"/>
+                <path id="Line_33" data-name="Line 33" class="cls-7" transform="translate(69.161 -15.862)" d="M0 31.362V0"/>
+                <path id="Line_32" data-name="Line 32" class="cls-7" transform="translate(581.161 -15.862)" d="M0 31.362V0"/>
+            </g>
+        </g>
+        <path id="Path_6083" data-name="Path 6083" d="m102.573-252.729 66 153.62 103.9-153.62 344.3-101.18" transform="translate(15.526 258.109)" style="stroke:#fea716;stroke-linecap:round;fill:none"/>
+    </g>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <g transform="translate(-288 -16)">
+        <circle data-name="Ellipse 86" cx="8" cy="8" r="8" transform="translate(288 16)" style="fill:#fea716"/>
+        <path data-name="Rectangle 2787" transform="translate(288 16)" style="fill:none" d="M0 0h16v16H0z"/>
+        <path data-name="Path 6224" d="M13.331 12.375a.665.665 0 0 1-.94.94l-1.913-1.9-1.907 1.906a.667.667 0 0 1-.947-.94l1.907-1.907-1.906-1.893a.658.658 0 0 1 .013-.94.666.666 0 0 1 .927-.007l1.913 1.9 1.907-1.907a.667.667 0 0 1 .96.927c-.007.007-.013.013-.02.013l-1.907 1.907z" transform="translate(285.233 13.525)" style="fill:#fff"/>
+    </g>
+</svg>

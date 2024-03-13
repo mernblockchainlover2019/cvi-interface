@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="processing_icon" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <style>
+            .cls-2{fill:#2bdec1}
+        </style>
+    </defs>
+    <g id="Group_6534">
+        <path id="Rectangle_2399" fill="none" d="M0 0H16V16H0z"/>
+        <g id="Group_6412" transform="translate(0.667 0.667)">
+            <path id="Path_4828" d="M8.333 15.667a7.333 7.333 0 1 1 7.333-7.333 7.342 7.342 0 0 1-7.333 7.333zm0-13.333a6 6 0 1 0 6 6 6.007 6.007 0 0 0-6-6.001z" class="cls-2" transform="translate(-1 -1)"/>
+        </g>
+        <g id="Group_6413" transform="translate(7.32 3.459)">
+            <path id="Path_4829" d="M13.785 12.36l-2.792-2.316-.013-4.856h1.333l.013 4.227 2.306 1.916z" class="cls-2" transform="translate(-10.98 -5.188)"/>
+        </g>
+    </g>
+</svg>

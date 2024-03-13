@@ -1,0 +1,183 @@
+.graphs-thumbnail-component {
+  width: 40%;
+
+  @media (max-width: 1365px) {
+    width: 100%;
+  }
+  & .tabs-form-component__header {
+    background: transparent;
+
+    & .tabs-component {
+      &.default {
+        @media (max-width: 1365px) {
+          padding: 0;
+          margin-top: 3.516vw;
+        }
+  
+        @media (max-width: 1024px) {
+          margin-top: 3.129vw;
+          padding: 0 5.2vw;
+        }
+        
+        @media (max-width: 767px) {
+          margin-top: 13.333vw;
+          border: 0;
+        }
+      }
+    }
+  }
+
+  .tabs-component__tab {
+    display: flex;
+    height: 2.083vw;
+
+    @media (max-width: 1365px){
+        height: 2.93vw;
+        padding: 0;
+        margin-right: 2.93vw;
+    }
+
+    @media (max-width: 1024px){
+        height: 5.215vw;
+    }
+
+    @media (max-width: 767px){
+        height: 8.172vw;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2.222vw;
+    }
+}
+
+  & .tabs-component__dropdown--header {
+    border: solid 1px #fea716;
+    background: transparent;
+
+    & .tabs-component__tab {
+      text-transform: capitalize;
+      border-radius: 0.108vw;
+      padding: 0;
+      border: 0;
+      font-size: 0.833vw;
+      font-weight: normal;
+      line-height: 1.25vw;
+      height: 2.083vw;
+      margin-right: 0;
+      transition: 0.2s all;
+      min-width: 7.5vw;
+      color: rgba(white, 1);
+      background: transparent;
+      @media (max-width: 1365px) {
+        border-radius: 0.293vw;
+        font-size: 1.172vw;
+        line-height: 1.758vw;
+        height: 2.93vw;
+        margin-right: 0;
+        min-width: 10.549vw;
+      }
+
+      @media (max-width: 1024px) {
+        border-radius: 0.521vw;
+        font-size: 2.086vw;
+        line-height: 3.129vw;
+        height: 5.214vw;
+        min-width: 18.774vw;
+      }
+
+      @media (max-width: 767px) {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 3.889vw;
+        line-height: 0;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+      }
+
+      &.active {
+        background-color: #fea716;
+        font-weight: bold;
+        color: white;
+
+        @media (max-width: 767px) {
+          background-color: transparent;
+        }
+      }
+    }
+  }
+
+  & .tabs-component__dropdown--options {
+    background: transparent;
+    .tabs-component__tab  {
+      text-align: left;
+      color: rgba(white, 0.75);
+      margin: 0;
+      text-align: left;
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .graph-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 0 2.5vw 0 3.083vw;
+
+    @media (max-width: 1365px) {
+      padding: 0;
+    }
+
+    @media (max-width: 767px) {
+      padding: 0 1.111vw;
+    }
+
+    .graph-image {
+      object-position: bottom;
+      object-fit: contain;
+      padding: 0;
+      max-height: 100%;
+      max-width: 100%;
+      width: 33.177vw;
+      margin-top: 0.833vw;
+      height: auto;
+
+      @media (max-width: 1365px) {
+        width: 100%;
+        object-fit: cover;
+        height: auto;
+        margin-top: 1.172vw;
+      }
+
+      @media (max-width: 1024px) {
+        margin-top: 3.129vw;
+      }
+      
+      @media (max-width: 767px) {
+        margin-top: 6.667vw;
+      }
+    }
+    .graph-note {
+      font-size: 0.625vw;
+      margin: 16px 0 0 0;
+      width: 100%;
+      max-width: 100%;
+
+      @media (max-width: 1365px) {
+        font-size: 0.879vw;
+      }
+      @media (max-width: 1024px) {
+        font-size: 1.565vw;
+      }
+      @media (max-width: 767px) {
+        font-size: 3.333vw;
+      }
+    }
+  }
+}

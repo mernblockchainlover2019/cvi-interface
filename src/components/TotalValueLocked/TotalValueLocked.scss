@@ -1,0 +1,103 @@
+.total-value-locked {
+  width: 100%;
+  white-space: nowrap;
+  position: relative;
+  h2,
+  p {
+    height: fit-content;
+  }
+  h2 {
+    font-size: 0.625vw;
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    @media (max-width: 1365px) {
+      font-size: 0.879vw;
+    }
+    @media (max-width: 767px) {
+      font-size: 3.333vw;
+    }
+  }
+  .tvl-value {
+    color: white;
+    font-size: 0.938vw;
+    margin: 0;
+    @media (max-width: 1365px) {
+      font-size: 1.025vw;
+    }
+    @media (max-width: 1024px) {
+      font-size: 2.347vw;
+    }
+    @media (max-width: 1024px) {
+      font-size: 5vw;
+    }
+    &.green {
+      color: #2bdec1;
+    }
+    &.bold {
+      font-weight: bold;
+    }
+  }
+
+  &.home {
+    position: relative;
+    background: url("../../images/backgrounds/homepage-tvl-bg.png") no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 25.417vw;
+    width: 25.417vw;
+    margin: 1.25vw auto;
+    @media (max-width: 767px) {
+      width: 100%;
+      min-height: 100vw;
+    }
+    h2 {
+      font-size: 1.25vw;
+      padding-block-end: 0.833vw;
+      @media (max-width: 1365px) {
+        font-size: 1.758vw;
+      }
+      @media (max-width: 1024px) {
+        font-size: 2.347vw;
+      }
+
+      @media (max-width: 767px) {
+        font-size: 5vw;
+      }
+    }
+    .tvl-value {
+      text-align: center;
+      font-size: 3.333vw;
+      @media (max-width: 1365px) {
+        font-size: 4.689vw;
+        margin: 0 0 1.172vw 0;
+      }
+      @media (max-width: 1024px) {
+        font-size: 7.301vw;
+        margin: 0 0 2.172vw 0;
+      }
+
+      @media (max-width: 767px) {
+        font-size: 8.889vw;
+        padding: 0 11.111vw;
+        margin: 0 0 4.667vw 0;
+      }
+    }
+  }
+  &.navbar {
+    margin-right: 0.833vw;
+  }
+  &.navitem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2,
+    .tvl-value {
+      font-size: unset;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="double_right_chevron" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <style>
+            .cls-2{fill:#007acb;fill-rule:evenodd}
+        </style>
+    </defs>
+    <path id="rectangle" fill="none" d="M0 0H16V16H0z"/>
+    <g id="Group_6342" transform="rotate(180 5.86 5.96)">
+        <path id="Path_4201" d="M6.326.193L4.193 2.327a.659.659 0 0 1-.933 0L1.126.193a.66.66 0 1 0-.933.933L3.26 4.194a.659.659 0 0 0 .933 0L7.26 1.127a.66.66 0 1 0-.934-.934" class="cls-2" transform="rotate(90 3.86 3.86)"/>
+        <path id="Path_4808" d="M6.326.193L4.193 2.327a.659.659 0 0 1-.933 0L1.126.193a.66.66 0 1 0-.933.933L3.26 4.194a.659.659 0 0 0 .933 0L7.26 1.127a.66.66 0 1 0-.934-.934" class="cls-2" transform="rotate(90 2.193 2.194)"/>
+    </g>
+</svg>

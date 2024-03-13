@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72">
+    <g data-name="arbitrage icon" transform="translate(0 .4)">
+        <path data-name="Rectangle 2654" transform="translate(0 -.4)" style="fill:none" d="M0 0h72v72H0z"/>
+        <g data-name="Group 8117">
+            <path data-name="Path 6010" d="M4.507 64.294a2.94 2.94 0 0 1-1.334-.319 2.979 2.979 0 0 1-1.322-4L21.1 21.756a2.979 2.979 0 0 1 5.11-.356l15.335 22.194L58.4 3.28a2.979 2.979 0 0 1 5.5 2.3L44.937 50.918a2.977 2.977 0 0 1-2.437 1.811 2.922 2.922 0 0 1-2.76-1.269L24.161 28.916 7.17 62.656a2.974 2.974 0 0 1-2.663 1.638z" transform="translate(3.104 2.918)" style="fill:#2bbede"/>
+        </g>
+        <circle data-name="Ellipse 259" cx="7.415" cy="7.415" r="7.415" transform="translate(0 56.77)" style="fill:#f8ba15"/>
+        <circle data-name="Ellipse 260" cx="7.415" cy="7.415" r="7.415" transform="translate(18.932 18.611)" style="fill:#007acb"/>
+        <circle data-name="Ellipse 261" cx="7.415" cy="7.415" r="7.415" transform="translate(37.865 45.243)" style="fill:#fff"/>
+        <circle data-name="Ellipse 262" cx="7.415" cy="7.415" r="7.415" transform="translate(56.791 -.021)" style="fill:#fea716"/>
+    </g>
+</svg>

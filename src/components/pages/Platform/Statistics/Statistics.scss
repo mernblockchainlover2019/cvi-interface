@@ -1,0 +1,93 @@
+.statistics-component {
+    padding: 1.667vw 1.25vw 1.25vw 1.25vw;
+    min-height: 6.558vw;
+    
+    @media (max-width: 1365px){
+        min-height: 10vw;
+        padding: 1.667vw 1.25vw 1.25vw 1.25vw;
+    }
+
+    @media (max-width: 1024px){
+        padding: 3.129vw;
+        min-height: 100%;
+        height: 100%;
+    }
+
+    @media (max-width: 767px){
+        padding: 6.667vw 4.444vw;
+    }
+
+ 
+    & .stat-component {
+        min-width: 5.208vw;
+        min-height: 2.083vw;
+        @media (max-width: 1365px){
+            min-width: 8.208vw;
+            min-height: 2.93vw;
+        }
+        @media (max-width: 1024px){
+        	width: 100%;
+            min-height: 5.215vw;
+        }
+        @media (max-width: 767px){
+        	width: 100%;
+            min-height: 11.111vw;
+        }
+        &.multiline {
+            & p {
+                height: 1.146vw;
+                @media (max-width: 1365px){
+                    height: 1.612vw;
+                }
+            }
+        }
+
+        &:first-child {
+            & h2 {
+                @media (max-width: 767px){ 
+                    margin-top: 0;
+                }
+            }
+        }
+
+        & h2 {
+            max-width: 12.292vw;
+            color: rgba(white, 0.8);
+            height: 1.146vw;
+
+            @media (max-width: 1365px){
+                max-width: 100%;
+                height: 1.612vw;
+                white-space: nowrap;
+            }
+
+            @media (max-width: 1024px){
+                white-space: normal;
+            }
+
+            @media (max-width: 767px){
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        &--breaker {
+            width: 100%;
+            margin: 0.44vw 0;
+   
+            @media (max-width: 1024px) {
+                margin: 1.043vw 0;
+            }
+
+            @media (max-width: 767px){
+            	margin: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+.platform-component {
+    background-color: #0f112d;
+    flex: 1;
+
+    & .statistics-row-component {
+        & .column-component {
+            padding: 0 0.833vw 0 0;
+            @media (max-width: 1365px){
+                padding: 0 1.172vw 0 0;
+            }
+
+            @media (max-width: 1024px){
+                padding: 0;
+            }
+        
+            &:last-child {
+                padding: 0;
+            }
+        }
+
+        & .container-component { // each container will have the same padding.
+            padding: 0.833vw 1.667vw; 
+
+            @media (max-width: 1365px){
+                flex-wrap: wrap;
+                padding: 0.833vw 1.667vw;
+            }
+                    
+            @media (max-width: 1024px){
+                padding: 2.086vw 4.172vw;
+            }
+
+            @media (max-width: 767px){
+                padding: 4.444vw;
+            }
+
+            &.index-stats-container {
+                max-width: 100%;
+
+                & .index-value-component__top {
+                    align-items: center;
+                }
+            }   
+        }
+
+    }
+
+}

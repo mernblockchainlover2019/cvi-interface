@@ -1,0 +1,17 @@
+.cviindex-component {
+    background-color: #0f112d;
+
+    &__chart-container {
+        margin: 0.667vw;
+
+        @media (max-width: 1365px) {
+            margin: 0.667vw;
+        }
+        @media (max-width: 1024px) {
+            margin: 0.933vw;
+        }
+        @media (max-width: 767px) {
+            margin: 1.667vw;
+        }
+    }
+}

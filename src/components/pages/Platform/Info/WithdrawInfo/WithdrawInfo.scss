@@ -1,0 +1,51 @@
+.withdraw-info-component {
+    margin-top: 1.146vw;
+    width: 100%;
+
+    @media (max-width: 1365px){   
+        margin-top: 1.612vw;       
+    }
+
+    @media (max-width: 1024px){ 
+        margin-top: 2.868vw;
+    }
+
+    @media (max-width: 767px){
+        margin-top: 6.111vw;
+    }
+
+    & span {
+        min-height: 2.5vw;
+        height: 100%;
+        border-radius: 0.417vw;
+        border: solid 0.052vw #2bdec1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.729vw;
+        font-weight: bold;
+        padding: 8px 16px;
+
+        @media (max-width: 1365px){   
+            min-height: 3.516vw;
+            border-radius: 0.586vw;
+            border: solid 0.073vw #2bdec1; 
+            font-size: 1.026vw;
+        }
+
+        @media (max-width: 1024px){ 
+            min-height: 6.258vw;
+            border-radius: 1.043vw;
+            border: solid 0.13vw #2bdec1;
+            font-size: 1.825vw;
+        }
+
+        @media (max-width: 767px){
+            min-height: 13.333vw;
+            border-radius: 2.222vw;
+            border: solid 0.278vw #2bdec1;
+            font-size: 3.889vw;
+            padding: 2.222vw 4.444vw;
+        }
+    }
+}

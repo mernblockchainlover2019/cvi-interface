@@ -1,0 +1,142 @@
+.expand-list-component {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 3.129vw;
+
+    &.history {
+        & .expand-component__header .row-item-component:nth-last-child(2) {
+            text-align: right;
+        }
+        
+        & .expand-component  {
+            &.expanded {           
+                & .expand-component__header {
+                    background-color: #182f5d;
+                    padding-bottom: 0;
+                    padding-top: 0;
+                    height: 3.129vw;
+
+                    @media (max-width: 767px){
+                        height: 6.667vw;
+                    }
+
+                    & .expand-component__header--button {
+                        margin-top: 4.954vw;
+
+                        @media (max-width: 767px) {
+                            margin-top: 10.556vw;
+                        }
+                    }
+
+                    & .row-item-component {
+                        visibility: hidden;
+                    }
+                }
+
+                & .expand-component__expanded {
+                    background-color: #182f5d;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    padding-bottom: 0;
+                    & .row-item-component:first-child {
+                        margin-top: auto;
+                    }
+    
+                    & .row-item-component {
+                        flex: 50%;
+                        pointer-events: none;
+                        transform: translateY(-3.129vw);
+                        margin-top: 3.129vw;
+
+                        @media (max-width: 767px) {
+                            transform: translateY(-6.667vw);
+                            margin-top: 6.667vw;
+                        }
+
+                        &:nth-child(even) {
+                            text-align: right;
+                            padding-right: 3.911vw;
+
+                            @media (max-width: 767px) {
+                                padding-right: 8.333vw;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &__header {
+                background-color: #1b1d38;
+                & .Mint .value-component { 
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                }
+            }
+            
+            &:not(.expanded) {
+                &:nth-child(odd) {
+                    & .expand-component__header {
+                        background-color: #1a2243;
+                    }
+                }
+            }
+        }
+    }
+
+    &.liquidity {
+        .expand-component  {
+            &.expanded {
+                .expand-component__header {
+                    .row-actions-wrapper {
+                        display:flex;
+                        align-items: flex-end;
+                        justify-content: flex-end;
+                        vertical-align: middle;
+                        height: 100%;
+                        flex-direction: column;
+                        .migrate-component {
+                            margin-top: 1.172vw;
+                            @media (max-width: 1024px) {
+                                margin-top: 2.086vw;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.available-to-stake {
+        padding-top: 0;
+        & .expand-component  { 
+            &.expanded {
+                & .expand-component__header {
+                    background-color: #182f5d;
+
+                    & .stake-component__container--button {
+                        margin-left: auto;
+                    }
+                }
+            }
+
+            &__header {
+                background-color: #1b1d38;
+            }
+            
+            &:not(.expanded) {
+                &:nth-child(even) {
+                    & .expand-component__header {
+                        background-color: #1a2243;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 767px) {
+        padding: 0 0 6.667vw 0;
+    }
+}

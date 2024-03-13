@@ -1,0 +1,64 @@
+.new-notification-message-component {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    background-color: #0a4cd2;
+    z-index: 9999;
+    top: 0;
+    height: 3.333vw;
+
+    @media (max-width: 1365px) {
+        height: 4.689vw;
+    }
+
+    @media (max-width: 1024px) {
+        height: 8.344vw;
+        padding: 0 16.688vw;
+    }
+    
+    @media (max-width: 767px) {
+        height: 22.222vw;
+        padding: 0 13.333vw;
+    }
+
+    &__close-button {
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        background-color: transparent;
+        border: 0;
+        margin-right: 1.25vw;
+
+        @media (max-width: 1365px) {
+            margin-right: 1.758vw;
+        }
+  
+        @media (max-width: 1024px) {
+            margin-right: 3.129vw;
+        }
+        
+        @media (max-width: 767px) {
+            margin-right: 4.444vw;
+        }
+    }
+
+    & p, & a {
+        text-align: center;
+        margin: 0;
+        color: white;
+        font-size: 0.729vw;
+        @media (max-width: 1365px) {
+            font-size: 1.026vw;
+        }
+  
+        @media (max-width: 1024px) {
+            font-size: 1.434vw;
+        }
+        
+        @media (max-width: 767px) {
+            font-size: 3.056vw;
+        }
+    }
+}

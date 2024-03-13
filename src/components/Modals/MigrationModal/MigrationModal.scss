@@ -1,0 +1,110 @@
+.migration-modal {
+  .migration-welcome-wrapper, .migration-title {
+    padding-block-start: 1.758vw;
+    @media (max-width: 767px) {
+      padding-block-start: 6.667vw;
+    }
+    .migration-coin-image {
+      margin: 0 auto;
+      display: block;
+    }
+  }
+  
+  .migration-title {
+    margin: 0;
+    font-size: 1.146vw;
+    
+    @media (max-width: 1365px) { 
+      font-size: 1.612vw;
+    }
+
+    @media (max-width: 1024px) {
+      font-size: 2.868vw;
+      margin-bottom: 5.215vw;
+    }
+
+    @media (max-width: 767px) {
+      font-size: 4.444vw;
+      margin-bottom: 11.111vw;
+    }
+  }
+  .step-details {
+    padding: 1.758vw 0;
+    @media (max-width: 767px) {
+      padding: 6.667vw 0;
+    }
+    p {
+      margin: 0.586vw 0;
+      white-space: pre-wrap;
+      line-height: 1.25vw;
+      font-size: 0.729vw;
+      
+      @media (max-width: 1365px) {
+        line-height: 1.758vw;
+        font-size: 1.026vw;
+      }
+
+      @media (max-width: 1024px) {
+        margin: 2.222vw 0;
+        line-height: 2.344vw;
+        font-size: 1.825vw;
+      }
+
+      @media (max-width: 767px) {
+        margin: 2.222vw 0;
+        line-height: 6.667vw;
+        font-size: 3.889vw;
+      }
+      .wallet-address {
+        width: fit-content;
+      }
+      span {
+        &.bold {
+          font-weight: bold;
+        }
+        &.green {
+          color: #2bdec1;
+        }
+      }
+    }
+    p > .float-left {
+      margin: 0;
+      float: left;
+    }
+
+    .user-amount {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &.bold {
+        font-weight: bold;
+      }
+    }
+  }
+  .actions-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    @media (max-width: 767px) {
+      flex-direction: column;
+    }
+    .step-button {
+      margin-inline-end: 2.344vw;
+      margin-block-end: 0;
+      text-transform: uppercase;
+      background: #fea716;
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.25);
+      &.disabled {
+        background: #2f3250;
+      }
+      &:last-of-type {
+        margin-inline-end: 0;
+      }
+      @media (max-width: 767px) {
+        margin-inline-end: 0;
+        margin-block-end: 4.444vw;
+      }
+    }
+  }
+}

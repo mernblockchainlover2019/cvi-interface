@@ -1,0 +1,165 @@
+.wallet-connect-modal {
+    &__container {
+        text-align: center;
+        &--providers {
+            display: flex;
+            width: 100%;
+
+            @media (max-width: 767px){
+                flex-direction: column;
+            }
+        }
+    }
+
+    & .select-network {
+        width: 100%;
+        & h2 { 
+            text-align: center;
+        }
+    }
+
+    & .connect-wallet-title {
+        font-size: 1.667vw;
+        line-height: 1;
+        font-weight: normal;
+        margin-top: 0;
+
+        @media (max-width: 1365px){   
+            font-size: 2.344vw;
+        }
+
+        @media (max-width: 1024px){ 
+            font-size: 4.172vw;
+        }
+
+        @media (max-width: 767px) {
+            font-size: 6.667vw;
+            margin: 6.667vw auto 0 auto;
+        }
+    }
+
+    & h2 {
+        font-size: 0.833vw;
+        margin: 1.25vw 0;
+        font-weight: normal;
+        line-height: 1.5;
+        color: white;
+
+        @media (max-width: 1365px){   
+            font-size: 1.172vw;
+            margin: 1.758vw 0;
+        }
+
+        @media (max-width: 1024px){ 
+            font-size: 2.086vw;
+            margin: 3.129vw 0;
+        }
+
+        @media (max-width: 767px){
+            font-size: 3.889vw;
+            margin: 6.667vw 0;
+        }
+    }
+
+    &__cancel {
+        border-radius: 0.417vw;
+        height: 2.917vw;
+        margin-top: 0.833vw;
+        font-size: 0.833vw;
+        background-color: #264fa1;
+        box-shadow: none;
+        font-weight: normal;
+        color: white;
+
+        @media (max-width: 1365px){   
+            border-radius: 0.586vw;
+            height: 4.103vw;
+            margin-top: 1.172vw;
+            font-size: 1.172vw;
+        }
+
+        @media (max-width: 1024px){ 
+            border-radius: 8px;
+            height: 56px;
+            margin-top: 16px;
+            font-size: 16px;
+        }
+
+        @media (max-width: 767px){
+            border-radius: 8px;
+            height: 56px;
+            margin-top: 16px;
+            font-size: 16px;
+        }
+    }
+    
+    &__faq {
+        margin: 1.25vw 0 0 0;
+        font-size: 0.625vw;
+        line-height: 1.25vw;
+        font-weight: normal;
+        color: white;      
+
+        @media (max-width: 1365px){   
+            margin: 1.758vw 0 0 0;
+            font-size: 0.879vw;
+            line-height: 1.758vw;
+        }
+
+        @media (max-width: 1024px){ 
+            margin: 24px 0 0 0;
+            font-size: 12px;
+            line-height: 24px;
+        }
+
+        @media (max-width: 767px){
+            margin: 24px 0 0 0;
+            font-size: 12px;
+            line-height: 24px;
+        }
+        
+        & a {
+            color: #2bbede;
+        }
+    }
+
+    & .group-component { 
+        margin-top: 0;
+
+        & .wallet-provider {
+            &:first-child {
+                margin-right: 0.417vw;
+
+                @media (max-width: 1365px){   
+                    margin-right: 0.586vw;
+                }
+    
+                @media (max-width: 1024px){ 
+                    margin-right: 8px;
+                }
+    
+                @media (max-width: 767px) {
+                    margin-right: 0;
+                    margin-bottom: 12px;
+                }
+            }
+
+            &:last-child {
+                margin-left: 0.417vw;
+
+                @media (max-width: 1365px){   
+                    margin-left: 0.586vw;
+                }
+    
+                @media (max-width: 1024px){ 
+                    margin-left: 8px;
+                }
+    
+                @media (max-width: 767px) {
+                    margin-left: 0;
+                    margin-top: 12px;
+                }
+            }
+        }
+    }
+}

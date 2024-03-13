@@ -1,0 +1,83 @@
+.home-component {
+    background-color: #0f112d;
+    flex: 1;
+    & .crypto-com-widget {
+        margin-inline-start: -1rem;
+        max-width: 24.375vw;
+        @media (max-width: 1365px) {
+            max-width: 34.286vw;
+        }
+        @media (max-width: 1024px) {
+            max-width: 46.936vw;
+        }
+        @media (max-width: 767px){
+            max-width: 100vw;
+        }
+    }
+    & .index-stats-component { 
+        height: auto;
+    }
+}
+
+.graph-section {
+    background-color: #0c0d23;
+}
+
+.govi-dao-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 6.667vw auto 6.667vw  auto;
+    max-width: calc(100% - 22.5vw);
+    flex: 1;
+    align-items: baseline;
+    
+    @media (max-width: 1365px) {
+        flex-wrap: wrap;
+        margin: 9.377vw auto 7.912vw auto;
+        max-width: 100%;
+    }
+      
+    @media (max-width: 1024px) {
+        padding: 0 3.129vw;
+        margin: 6.258vw auto 0 auto;
+    }
+
+    @media (max-width: 767px){
+        max-width: 100%;
+        padding: 0 6.667vw;
+        margin: 13.333vw auto 0 auto;
+    }
+
+    & .usecase-component {
+        max-width: 50%;
+        margin: 0 1.667vw;
+        padding: 3.333vw 3.333vw 5vw;
+        height: 22.167vw;
+   
+        @media (max-width: 1365px){
+            height: auto;
+            margin: 0 12.344vw 2.344vw 12.344vw;
+            padding: 4.688vw 4.688vw 7.033vw;
+            max-width: 100%;
+        }
+        
+        @media (max-width: 1024px){
+            margin: 0 0 4.172vw 0;
+            padding: 6.258vw 3.129vw;
+        }
+
+        @media (max-width: 767px){
+            margin: 0 0 8.889vw 0;
+            padding: 13.333vw 6.667vw;
+        }
+
+        & h3 {
+            display: flex;
+            align-items: center;
+            & img {
+                margin-right: 16px;
+            }
+        }
+    }
+}

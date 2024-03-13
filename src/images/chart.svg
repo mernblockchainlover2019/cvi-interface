@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="278.149" height="75.094" viewBox="0 0 278.149 75.094">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y1=".113" y2=".922" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff"/>
+            <stop offset="1" stop-color="#fff" stop-opacity=".502"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" x1=".5" x2=".5" y1=".946" y2=".188" xlink:href="#linear-gradient"/>
+        <clipPath id="clip-path">
+            <path id="Rectangle_578" d="M0 0H186.149V71.857H0z" class="cls-1"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="logo_all_white" opacity="0.1">
+        <g id="Group_6191" transform="translate(0 .219)">
+            <g id="Group_6110">
+                <path id="Path_4038" fill="url(#linear-gradient)" d="M469.668 461.087a4.559 4.559 0 0 1-4.552-4.545v-9.331l28.739-18.8-28.535-18.59v-14.532a1.865 1.865 0 0 1 1.863-1.859 1.808 1.808 0 0 1 1.024.322l45.869 30.894a4.534 4.534 0 0 1-.005 7.523l-41.895 28.136a4.434 4.434 0 0 1-2.508.781z" transform="translate(-451.901 -393.43)"/>
+                <path id="Path_4039" fill="url(#linear-gradient-2)" d="M460.863 488.673a4.437 4.437 0 0 1-2.514-.784l-41.69-28.08a4.533 4.533 0 0 1 .005-7.524l46.07-30.94a1.806 1.806 0 0 1 1.022-.321 1.866 1.866 0 0 1 1.863 1.859v14.362l-28.739 18.8 28.535 18.59v9.494a4.462 4.462 0 0 1-1.383 3.267 4.645 4.645 0 0 1-3.169 1.278z" transform="translate(-414.658 -413.797)"/>
+            </g>
+            <g id="Group_6111" transform="translate(13.379 14.624)">
+                <path id="Path_4040" d="M478.908 565.5l13.31 8.67L479 583.039l-13.262-8.927z" class="cls-1" transform="translate(-465.742 -535.058)"/>
+                <path id="Path_4041" d="M520.846 466.809l-13.31-8.67 13.214-8.871 13.262 8.927z" class="cls-1" transform="translate(-496.59 -449.268)"/>
+            </g>
+        </g>
+        <g id="Group_6200" clip-path="url(#clip-path)" transform="translate(92)">
+            <path id="Path_4096" d="M33.41 69.861C14.363 69.861 0 54.845 0 34.932S14.363 0 33.41 0c15.658 0 23.923 9.943 24.267 10.367l.333.41-6.335 6.014-.388-.487a19.862 19.862 0 0 0-4.572-3.816 24.9 24.9 0 0 0-13.3-3.752c-14.852 0-23.727 13.318-23.727 26.194s8.874 26.196 23.722 26.196c11.664 0 18.659-8.529 18.729-8.615l.4-.5 6.219 6.328-.328.4c-.091.112-9.411 11.123-25.022 11.123" class="cls-1"/>
+            <path id="Path_4097" d="M623.518 71.863L594.376.007h9.181l20.159 51.2 20.262-51.2h8.683z" class="cls-1" transform="translate(-529.626 -.006)"/>
+            <path id="Path_4098" d="M1200.995 0h9.881l.1 67.546h-9.981z" class="cls-1" transform="translate(-1068.738)"/>
+        </g>
+    </g>
+</svg>

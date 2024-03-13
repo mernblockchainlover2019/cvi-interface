@@ -1,0 +1,198 @@
+[
+    {
+        "name": "GOVI",
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    {
+        "name": "USDT",
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    {
+        "name": "CVOL-USDT-Platform",
+        "events": [
+            "Approval",
+            "ClosePosition",
+            "Deposit",
+            "OpenPosition",
+            "Transfer",
+            "Withdraw"
+        ]
+    },
+    {
+        "name": "CVOL-USDTLP-StakingReward",
+        "events": [
+            "RewardAdded",
+            "RewardPaid",
+            "Staked",
+            "Withdrawn"
+        ]
+    },
+    {
+        "name": "USDC",
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    {
+        "name": "CVOL-USDC-Platform",
+        "events": [
+            "Approval",
+            "ClosePosition",
+            "Deposit",
+            "OpenPosition",
+            "Transfer",
+            "Withdraw"
+        ]
+    },
+    {
+        "name": "CVOL-USDCLP-StakingReward",
+        "events": [
+            "RewardAdded",
+            "RewardPaid",
+            "Staked",
+            "Withdrawn"
+        ]
+    },
+    {
+        "name": "ETHVOL-USDC-Platform",
+        "events": [
+            "Approval",
+            "ClosePosition",
+            "Deposit",
+            "OpenPosition",
+            "Transfer",
+            "Withdraw"
+        ]
+    },
+    {
+        "name": "ETHVOL-USDCLP-StakingReward",
+        "events": [
+            "RewardAdded",
+            "RewardPaid",
+            "Staked",
+            "Withdrawn"
+        ]
+    },
+    {
+        "name": "COTIETH-StakingRewards",
+        "events": [
+            "RewardAdded",
+            "RewardPaid",
+            "Staked",
+            "Withdrawn"
+        ]
+    },
+    {
+        "name": "GOVIETH-StakingRewards",
+        "events": [
+            "RewardAdded",
+            "RewardPaid",
+            "Staked",
+            "Withdrawn"
+        ]
+    },
+    {
+        "name": "UNIV2COTIETH",
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    {
+        "name": "UNIV2GOVIETH",
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    {
+        "name": "WETH",
+        "events": [
+            "Approval",
+            "Transfer",
+            "Deposit",
+            "Withdrawal"
+        ]
+    },
+    {
+        "name": "CVOL-ETH-PositionRewards",
+        "events": [
+            "Claimed"
+        ]
+    },
+    {
+        "name": "CVOL-ETH-Platform",
+        "events": [
+            "Approval",
+            "ClosePosition",
+            "Deposit",
+            "OpenPosition",
+            "Transfer",
+            "Withdraw"
+        ]
+    },
+    {
+        "name": "CVOL-ETHLP-StakingRewards",
+        "events": [
+            "RewardAdded",
+            "RewardPaid",
+            "Staked",
+            "Withdrawn"
+        ]
+    },
+    {
+        "name": "SLPCOTIETH",
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    {
+        "name": "SLPGOVIETH",
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    {
+        "name": "COTIETHSLP-StakingRewards",
+        "events": [
+            "RewardAdded",
+            "RewardPaid",
+            "Staked",
+            "Withdrawn"
+        ]
+    },
+    {
+        "name": "GOVIETHSLP-StakingRewards",
+        "events": [
+            "RewardAdded",
+            "RewardPaid",
+            "Staked",
+            "Withdrawn"
+        ]
+    },
+    {
+        "name": "RHEGIC2ETH-StakingRewards",
+        "events": [
+            "RewardAdded",
+            "RewardPaid",
+            "Staked",
+            "Withdrawn"
+        ]
+    },
+    {
+        "name": "UNIV2RHEGIC2ETH",
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    }
+]

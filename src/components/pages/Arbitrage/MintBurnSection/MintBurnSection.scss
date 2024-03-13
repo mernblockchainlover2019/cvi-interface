@@ -1,0 +1,25 @@
+.arbitrage-mint-burn-section-component {
+    height: 100%;
+    padding: 2.5vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#1b1d38;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    
+    @media (max-width: 1365px){
+        padding: 2.5vw;
+    }
+
+    @media (max-width: 1024px){ 
+        padding: 6.258vw;
+    }
+
+    @media (max-width: 767px){ 
+        padding: 6.258vw 4.133vw;
+    }
+
+    & .sub-tabs {
+        background-color: transparent;
+    }
+}

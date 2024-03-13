@@ -1,0 +1,24 @@
+.note-component {
+    margin-top: 1.25vw;
+    font-size: 0.625vw;
+    line-height: 1.33;
+    color: #fff;
+    
+    @media (max-width: 1365px){
+      margin-top: 1.758vw;
+      font-size: 0.879vw;
+    }
+    
+    @media (max-width: 1024px){
+      margin-top: 3.129vw;
+      font-size: 1.565vw;
+    }
+
+    @media (max-width: 767px){
+      margin-top: 6.667vw;
+      font-size: 3.333vw;
+    }
+    & strong {
+      font-weight: bold;
+    }
+}

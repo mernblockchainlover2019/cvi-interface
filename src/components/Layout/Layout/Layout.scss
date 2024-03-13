@@ -1,0 +1,51 @@
+.layout-component {
+    width: 100%;
+    padding: 1.667vw 1.25vw 0 1.25vw;
+    flex: 1;
+    
+    @media (max-width: 1365px) { 
+        padding: 2.344vw 1.758vw 0 1.758vw;
+    }
+
+    @media (max-width: 1024px) { 
+        padding: 4.172vw 3.129vw 0 3.129vw;
+    }
+
+    @media (max-width: 767px) {
+        padding: 6.667vw 6.667vw 0 6.667vw;
+    }
+
+    & .row-component {
+        padding-top: 1.25vw;
+
+        @media (max-width: 1365px) { 
+            padding-top: 1.172vw;
+        }
+
+        @media (max-width: 1024px) {
+            flex-wrap: wrap;
+            padding-top: 2.086vw;
+
+            & .column-component {
+                padding: 0;
+                padding-top: 2.086vw;
+
+                &:first-child {
+                    padding-top: 0;
+                }
+            }
+        }
+
+        @media (max-width: 767px) {
+            padding-top: 6.667vw;
+
+            & .column-component { 
+                padding-top: 6.667vw;
+            }
+        }
+
+        &:first-child {
+            padding-top: 0;
+        }
+    }
+}

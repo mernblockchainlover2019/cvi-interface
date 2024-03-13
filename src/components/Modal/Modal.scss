@@ -1,0 +1,177 @@
+#modal-root {
+    &.basic ~ #root {
+        position: fixed;
+        overflow: hidden;
+    }
+}
+
+.modal {
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    height: 100vh;
+    animation: modalFadeIn 0.3s;
+    background-color: rgba(#0f112d, 0.8);
+
+    &.sell-all-modal {
+        & .modal__container {
+            & img {
+                margin: 0 auto;
+                width: 100%;
+            }
+        }
+    }
+    
+    @keyframes modalFadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    & .close-button {
+        cursor: pointer;
+        transition: 0.3s all;
+        background-color: transparent;
+        border: 0;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        z-index: 1;
+
+        &:active {
+            transform: scale(1.1);
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &.basic {
+        & .modal__container {
+            animation: modalFadeIn 0.5s;
+            background-color: #1b1d38;
+            position: relative;
+            max-width: 100%;
+            padding: 2.083vw 2.5vw 2.5vw 2.5vw;
+            width: 31.333vw;
+            min-height: 14.417vw;
+            border-radius: 0.833vw;
+            box-shadow: 0 0.104vw 1.042vw 0 rgba(0, 0, 0, 0.25);
+            
+            @media (max-width: 1365px){   
+                padding: 2.93vw 3.516vw 3.516vw 3.516vw;
+                width: 44.073vw;
+                min-height: 20.279vw;
+                border-radius: 1.172vw;
+                box-shadow: 0 0.147vw 1.465vw 0 rgba(0, 0, 0, 0.25);
+            }
+
+            @media (max-width: 1024px){ 
+                padding: 5.215vw 6.258vw 6.258vw 6.258vw;
+                width: 70.926vw;
+                min-height: 26.076vw;
+                border-radius: 2.086vw;
+                box-shadow: 0 0.261vw 2.608vw 0 rgba(0, 0, 0, 0.25);
+            }
+
+            @media (max-width: 767px) {
+                width: 100%;
+                height: 100vh;
+                padding: 20vw 6.667vw 6.667vw 6.667vw;
+                border-radius: 0;
+            }
+        }
+    }
+
+    &__container {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        overflow-y: auto;
+        max-height: 100%;
+        border: solid 1px #1b1d38;
+
+        @media (max-width: 767px) {
+            border: none;
+        }
+
+        & .evaluate-modal{
+            width: 100%;
+
+            & .button{
+                height: 56px;
+            }
+        }
+    }
+}
+
+.evaluate-modal {
+    & h2 {
+       font-size: 18px;
+       font-weight: normal;
+       line-height: 1.5;
+       text-align: left;
+       color: white;
+    }
+ 
+    &__input-group {
+       margin-top: 24px;
+    }
+ 
+    & form {
+       & .button {
+          background-color: #2bbede;
+       }
+    }
+ 
+    & .modal-info {
+       height: 56px;
+       border-radius: 8px;
+       box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.25);
+       width: 100%;
+       background-color: white;
+       display: flex;
+       align-items: center;
+ 
+       & .modal-info-container {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+ 
+          & .text {
+             margin-left: 15px;
+             font-size: 18px;
+             font-weight: normal;
+             line-height: 0.78;
+          }
+ 
+          & .block {
+             width: 80px;
+             height: 56px;
+             background-color: #ecf6f8;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             border-radius: 0 8px 8px 0;
+             & img {
+                width: 19px;
+                height: 19px;
+             }
+ 
+             & span {
+                font-size: 14px;
+                font-weight: normal;
+                line-height: 1;
+                color: #288ec3;
+                margin-left: 5px;
+             }
+          }
+       }
+    }
+ }

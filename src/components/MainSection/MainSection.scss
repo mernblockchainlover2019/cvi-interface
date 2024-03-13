@@ -1,0 +1,9 @@
+.main-section-container {
+    width: 100%;
+
+    @media (max-width: 767px){
+     & .tabs-form-component__container {
+         display: block;
+     }          
+    }
+}

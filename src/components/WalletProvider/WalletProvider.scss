@@ -1,0 +1,193 @@
+.wallet-provider{
+    border-radius: 0.417vw;
+    padding: 1.25vw;
+    background-color: #0f112d;
+    width: 100%;
+
+    @media (max-width: 1365px){   
+        border-radius: 8px;
+        padding: 24px;
+    }
+
+    @media (max-width: 1024px){ 
+        border-radius: 0.586vw;
+        padding: 1.758vw;
+    }
+
+    @media (max-width: 767px){
+        border-radius: 8px;
+        padding: 24px;
+    }
+
+    &:first-child {
+        margin-right: 0.417vw;
+
+        @media (max-width: 1365px){   
+            margin-right: 0.586vw;
+        }
+
+        @media (max-width: 1024px){ 
+            margin-right: 8px;
+        }
+
+        @media (max-width: 767px){
+            margin-right: 8px;
+        }
+    }
+
+    &:last-child {
+        margin-left: 0.417vw;
+
+        @media (max-width: 1365px){   
+            margin-left: 0.586vw;
+        }
+
+        @media (max-width: 1024px){ 
+            margin-left: 1.043vw;
+        }
+
+        @media (max-width: 767px){
+            margin-left: 0;
+            margin-top: 4.444vw;
+        }
+    }
+
+    &.provider-is-connected {
+        background-color: #14204b;
+        border: solid 1px #2bdec1;
+        position: relative;
+        
+        & .connected-icon {
+            position: absolute;
+            right: 0.833vw;
+            top: 0.833vw;
+
+            @media (max-width: 1365px){   
+                right: 1.172vw;
+                top: 1.172vw;
+            }
+
+            @media (max-width: 1024px){ 
+                right: 16px;
+                top: 16px;
+            }
+
+            @media (max-width: 767px){
+                right: 16px;
+                top: 16px;
+            }
+        }
+        
+        & .button {
+            background-color: transparent;
+            box-shadow: none;
+            font-weight: normal;
+            color: #2bdec1;
+            pointer-events: none;
+            font-size: 0.833vw;
+            line-height: 1.25vw;
+
+            @media (max-width: 1365px){   
+                font-size: 1.172vw;
+                line-height: 1.758vw;
+            }
+
+            @media (max-width: 1024px){ 
+                font-size: 16px;
+                line-height: 24px;
+            }
+
+            @media (max-width: 767px){
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+    }
+
+    &__img {
+        width: 3.333vw;
+        height: 3.333vw;
+
+        @media (max-width: 1365px){   
+            width: 4.689vw;
+            height: 4.689vw;
+        }
+
+        @media (max-width: 1024px){ 
+            width: 64px;
+            height: 64px;
+        }
+
+        @media (max-width: 767px){
+            width: 64px;
+            height: 64px;
+        }
+    }
+
+    & .wallet-provider__h2 {
+        font-weight: normal;
+        line-height: 1.5;
+        color: white;
+        margin: 0.365vw 0 1.406vw 0;
+        font-size: 0.833vw;
+
+        @media (max-width: 1365px){   
+            margin: 0.513vw 0 1.978vw 0;
+            font-size: 1.172vw;
+        }
+
+        @media (max-width: 1024px){ 
+            margin: 7px 0 27px 0;
+            font-size: 16px;
+        }
+
+        @media (max-width: 767px){
+            margin: 7px 0 27px 0;
+            font-size: 16px;
+        }
+    }
+
+    &__button {
+        &.button {
+            background-color: #264fa1;
+            border: 1px solid #264fa1;
+            font-weight: normal;
+            color: white;
+            height: 2.917vw;
+            border-radius: 0.417vw;
+            box-shadow: 0 0.104vw 0.521vw 0 rgba(0, 0, 0, 0.25);
+            font-size: 0.833vw;
+            transition: 0.3s all ease-in-out;
+
+            &:hover {
+                background-color: rgba(38, 79, 161, 0.2);
+            }
+
+            &:active {
+                background-color: transparent;
+                color: #264fa1;
+            }
+
+            @media (max-width: 1365px){   
+                height: 4.103vw;
+                border-radius: 0.586vw;
+                box-shadow: 0 0.147vw 0.733vw 0 rgba(0, 0, 0, 0.25);
+                font-size: 1.172vw;
+            }
+
+            @media (max-width: 1024px){ 
+                height: 56px;
+                border-radius: 8px;
+                box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.25);
+                font-size: 16px;
+            }
+
+            @media (max-width: 767px){
+                height: 56px;
+                border-radius: 8px;
+                box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.25);
+                font-size: 16px;
+            }
+        }
+    }
+}

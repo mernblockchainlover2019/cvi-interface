@@ -1,0 +1,56 @@
+.global-stats-container {
+    max-width: 100%;
+    width: 35.042vw;
+    margin-right: 0.833vw;
+    
+    @media (max-width: 1365px){
+        max-width: 31.403vw;
+        margin-right: 1.172vw;
+    }
+
+    @media (max-width: 1024px){
+        max-width: 100%;
+        width: 100%;
+        margin: 0 0 2.086vw 0;
+        height: 10.43vw;
+    }
+    
+    @media (max-width: 767px){
+        height: auto;       
+        margin: 0 0 6.667vw 0;         
+    }
+
+    & .statistics-component {
+        padding: 0;
+        min-height: auto;
+
+        &__container {
+            @media (max-width: 1024px){
+                flex-wrap: nowrap;
+                height: 100%;
+            }
+
+            @media (max-width: 767px){
+                flex-wrap: wrap;        
+            }
+
+            & .stat-component {
+                @media (max-width: 1024px){
+                    min-width: auto;
+                    width: auto;
+                }
+
+                @media (max-width: 767px){
+                    width: 100%;
+                }
+
+                & h2 {
+                    @media (max-width: 1024px){
+                        min-height: 3.651vw;
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+    }
+}

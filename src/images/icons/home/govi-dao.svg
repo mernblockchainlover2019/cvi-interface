@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".5" y1="1" x2=".5" gradientUnits="objectBoundingBox">
+            <stop offset=".1" stop-color="#26519f"/>
+            <stop offset=".484" stop-color="#298dc3"/>
+            <stop offset=".8" stop-color="#28bcdd"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" x1="-4.01" y1="3.873" x2="-4.01" y2="3.845" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff"/>
+            <stop offset="1" stop-color="#fff" stop-opacity=".502"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-3" x1=".903" y1="0" x2=".839" y2="1" xlink:href="#linear-gradient-2"/>
+        <style>
+            .cls-4{fill:#fff}
+        </style>
+    </defs>
+    <g id="govi_dao_icon" data-name="govi dao icon" transform="translate(-928 -2176)">
+        <circle id="Ellipse_150" data-name="Ellipse 150" cx="36" cy="36" r="36" transform="translate(928 2176)" style="fill:url(#linear-gradient)"/>
+        <g id="Group_6112" data-name="Group 6112" transform="translate(946.565 2191.669)">
+            <g id="Group_6110" data-name="Group 6110">
+                <path id="Path_4038" data-name="Path 4038" d="M377.223 288.3a2.479 2.479 0 0 1-2.475-2.471v-5.073l15.627-10.222-15.52-10.114v-7.9a1.019 1.019 0 0 1 1.019-1.011.983.983 0 0 1 .557.176l24.941 16.8a2.465 2.465 0 0 1 0 4.091l-22.78 15.293a2.411 2.411 0 0 1-1.364.424z" transform="translate(-367.56 -251.505)" style="fill:url(#linear-gradient-2)"/>
+                <path id="Path_4039" data-name="Path 4039" d="M312.024 336.324a2.413 2.413 0 0 1-1.367-.427l-22.669-15.269a2.465 2.465 0 0 1 0-4.091l25.051-16.822a.983.983 0 0 1 .556-.175 1.02 1.02 0 0 1 1.02 1.011v7.809l-15.627 10.222 15.512 10.109v5.163a2.422 2.422 0 0 1-.752 1.777 2.526 2.526 0 0 1-1.723.695z" transform="translate(-286.898 -295.611)" style="fill:url(#linear-gradient-3)"/>
+            </g>
+            <g id="Group_6111" data-name="Group 6111" transform="translate(7.277 7.951)">
+                <path id="Path_4040" data-name="Path 4040" class="cls-4" d="m383 551.029 7.237 4.715-7.185 4.823-7.21-4.854z" transform="translate(-375.838 -534.473)"/>
+                <path id="Path_4041" data-name="Path 4041" class="cls-4" d="m455.815 358.222-7.237-4.715 7.185-4.824 7.212 4.854z" transform="translate(-442.627 -348.683)"/>
+            </g>
+        </g>
+    </g>
+</svg>

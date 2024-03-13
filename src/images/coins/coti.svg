@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="coti_coin" width="64" height="64" viewBox="0 0 64 64">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#194aad"/>
+            <stop offset=".1" stop-color="#194aad"/>
+            <stop offset=".499" stop-color="#238fca"/>
+            <stop offset=".8" stop-color="#2bbfdf"/>
+            <stop offset="1" stop-color="#2bbfdf"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" x1=".592" x2=".417" y1=".926" y2=".087" gradientUnits="objectBoundingBox">
+            <stop offset=".1" stop-color="#fff"/>
+            <stop offset=".523" stop-color="#fff" stop-opacity=".686"/>
+            <stop offset=".8" stop-color="#fff" stop-opacity=".502"/>
+        </linearGradient>
+        <style>
+            .cls-2{fill:url(#linear-gradient-2)}
+        </style>
+    </defs>
+    <g id="Group_21">
+        <circle id="Ellipse_8" cx="32" cy="32" r="32" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_6220" transform="translate(3.281 4.434)">
+        <path id="Path_4196" d="M9.419 24.186c-.646-.009-.959.256-.959.921v15.255c0 .643.328.919.951.924 7.38.076 16.285-6.455 23.764-11.585l.012-17.643c-7.366 5.051-16.569 12.233-23.768 12.128z" class="cls-2" transform="translate(0 0)"/>
+        <path id="Path_4199" d="M.96 12.127c-.646-.009-.959.256-.959.921v15.255c0 .643.328.919.951.924 7.38.076 16.285-6.455 23.764-11.585L24.728 0C17.362 5.05 8.159 12.232.96 12.127z" class="cls-2" transform="translate(48.846 42.592) rotate(180)"/>
+        <path id="Path_4198" fill="#fff" d="M29.476 27.934l.007-10.076c-3.057 1.9-6.07 4.024-8.882 5.953l-.007 10.076c3.057-1.899 6.07-4.024 8.882-5.953z" transform="translate(3.699 1.768)"/>
+    </g>
+</svg>

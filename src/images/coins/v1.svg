@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Rectangle_2722" data-name="Rectangle 2722" class="cls-1" transform="translate(0 .001)" d="M0 0h24v24H0z"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="v1_icon" data-name="v1 icon" transform="translate(4 4)">
+        <path id="Rectangle_2725" data-name="Rectangle 2725" transform="translate(-4 -4)" style="fill:none" d="M0 0h32v32H0z"/>
+        <g id="Group_8430" data-name="Group 8430" style="clip-path:url(#clip-path)">
+            <path id="Path_6158" data-name="Path 6158" class="cls-1" d="M12.486 10.115h2.108l-3.35 9.846H8.968L5.63 10.115h2.113L9.6 15.974c.1.346.208.749.319 1.209s.178.78.205.959a17.3 17.3 0 0 1 .5-2.168z" transform="translate(-1.408 -2.529)"/>
+            <path id="Path_6159" data-name="Path 6159" class="cls-1" d="M23.552 19.961h-2.08v-5.7l.019-.936.034-1.024q-.519.517-.721.679l-1.132.91-1-1.253 3.172-2.525h1.71z" transform="translate(-4.667 -2.529)"/>
+            <path id="Path_6160" data-name="Path 6160" class="cls-1" d="M22.5 22.5h-21v-21h21zM24 0H0v24h24z"/>
+        </g>
+    </g>
+</svg>

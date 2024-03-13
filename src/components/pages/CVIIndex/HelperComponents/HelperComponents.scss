@@ -1,0 +1,26 @@
+.cvi-index-range-selector {
+    display: flex;
+    padding: 1.667vh 1.667vw;
+
+    & .range-item {
+        background-color: #1b1d38;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+
+        &:hover {
+            color: #f8ba15;
+            fill: #f8ba15;
+        }
+
+        &.active {
+            color: #f8ba15;
+            fill: #f8ba15;
+            font-weight: 600;
+        }
+    }
+}
+.cvi-index-error {
+    background: red;
+    color: white;
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="minus_blue" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:none}
+        </style>
+    </defs>
+    <path id="Rectangle_546" d="M0 0H24V24H0z" class="cls-1" transform="translate(0 0)"/>
+    <g id="minus_yellow" transform="translate(-398.078 -408.721)">
+        <g id="Rectangle_546-2">
+            <path id="Rectangle_2605" d="M0 0H24V24H0z" class="cls-1" transform="translate(398.078 408.721)"/>
+        </g>
+        <g id="Ellipse_7">
+            <circle id="Ellipse_233" cx="12" cy="12" r="12" fill="#007acb" transform="translate(398.078 408.721)"/>
+        </g>
+        <g id="Line_9">
+            <path id="Path_5761" fill="#fff" d="M415.119 421.721h-10.082a1 1 0 0 1 0-2h10.082a1 1 0 0 1 0 2z"/>
+        </g>
+    </g>
+</svg>

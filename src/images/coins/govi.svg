@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="GOVI_coin" width="64" height="64" viewBox="0 0 64 64">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y1="1" gradientUnits="objectBoundingBox">
+            <stop offset=".1" stop-color="#26519f"/>
+            <stop offset=".484" stop-color="#298dc3"/>
+            <stop offset=".8" stop-color="#28bcdd"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" x1="-4.01" x2="-4.01" y1="3.873" y2="3.845" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff"/>
+            <stop offset="1" stop-color="#fff" stop-opacity=".502"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-3" x1=".903" x2=".839" y1="0" y2="1" xlink:href="#linear-gradient-2"/>
+        <style>
+            .cls-4{fill:#fff}
+        </style>
+    </defs>
+    <circle id="Ellipse_150" cx="32" cy="32" r="32" fill="url(#linear-gradient)"/>
+    <g id="Group_6112" transform="translate(16.502 13.928)">
+        <g id="Group_6110">
+            <path id="Path_4038" fill="url(#linear-gradient-2)" d="M376.948 284.209a2.2 2.2 0 0 1-2.2-2.2V277.5l13.89-9.086-13.8-8.99V252.4a.906.906 0 0 1 .906-.9.873.873 0 0 1 .5.156l22.17 14.933a2.191 2.191 0 0 1 0 3.636l-20.249 13.594a2.143 2.143 0 0 1-1.212.377z" transform="translate(-368.359 -251.505)"/>
+            <path id="Path_4039" fill="url(#linear-gradient-3)" d="M309.232 332.237a2.145 2.145 0 0 1-1.215-.379l-20.15-13.572a2.191 2.191 0 0 1 0-3.636l22.267-14.95a.874.874 0 0 1 .494-.155.906.906 0 0 1 .906.9v6.942l-13.89 9.086 13.792 8.985v4.589a2.153 2.153 0 0 1-.668 1.579 2.245 2.245 0 0 1-1.531.617z" transform="translate(-286.898 -296.047)"/>
+        </g>
+        <g id="Group_6111" transform="translate(6.468 7.067)">
+            <path id="Path_4040" d="M382.2 551.029l6.433 4.191-6.387 4.288-6.409-4.315z" class="cls-4" transform="translate(-375.838 -536.313)"/>
+            <path id="Path_4041" d="M455.011 357.162l-6.433-4.191 6.387-4.288 6.41 4.315z" class="cls-4" transform="translate(-443.288 -348.683)"/>
+        </g>
+    </g>
+</svg>

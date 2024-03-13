@@ -1,0 +1,151 @@
+
+.details-component {
+    border-radius: 0.417vw;
+    background-color: #222540;
+
+    @media (max-width: 1365px){ 
+        border-radius: 0.586vw;
+    }
+
+    @media (max-width: 1024px){ 
+        border-radius: 1.043vw;
+    }
+
+    @media (max-width: 767px){
+        border-radius: 2.222vw;
+    }
+    
+    &__container {
+        padding: 1.094vw 2.5vw;
+        padding-top: 1.875vw;
+        min-height: 17.2vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        @media (max-width: 1365px){
+            padding: 2.637vw 3.516vw 1.637vw 3.516vw;  
+        }
+
+        @media (max-width: 1024px){ 
+            padding: 4.694vw 6.258vw;
+            padding-top: 4.694vw;
+        }
+
+        @media (max-width: 767px){
+            padding: 7.778vw 4.444vw;
+            padding-top: 10vw;
+        }
+
+       
+        & .stat-component {
+            display: flex;
+            justify-content: space-between;
+            align-items: center ;
+            margin-bottom: 0.837vw;
+            padding-bottom: 0.827vw;
+            border-bottom: 0.052vw solid #2f3250;
+            height: 1.458vw;
+
+            &.low {
+                color: #f96a9a;
+            }
+            
+            @media (max-width: 1365px){
+                margin-bottom: 1.136vw;
+                padding-bottom: 1.136vw;
+                border-bottom: 0.073vw solid #2f3250;
+                height: 2.051vw;
+            }
+
+            @media (max-width: 1024px){
+                margin-bottom: 2.021vw;
+                padding-bottom: 2.021vw;
+                border-bottom: 0.13vw solid #2f3250;
+                height: 3.651vw;
+            }
+
+            @media (max-width: 767px){
+                border-bottom: 0.278vw solid #2f3250;
+                flex-direction: column;
+                align-items: baseline;
+                justify-content: center;
+                height: 18vw;
+
+                margin-bottom: 2.222vw;
+                padding-bottom: 2.222vw;
+            }
+
+            & h2 {
+                @media (max-width: 767px){ 
+                    margin-top: 2px;
+                    align-items: center;
+                    font-size: 3.333vw;
+                }
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+                border-bottom: 0;
+            }
+
+            &.amount {
+                & p {
+                    font-size: 1.042vw;
+
+                    @media (max-width: 1365px){
+                        font-size: 1.465vw;
+                    }
+                
+                    @media (max-width: 1024px){
+                        font-size: 2.608vw;
+                    }
+                
+                    @media (max-width: 767px){
+                        font-size: 3.889vw;
+                    }
+                }
+            }
+
+            &.low-priority {
+                border-bottom: 0;
+                margin-bottom: 0;
+            
+                @media (max-width: 767px){
+                    padding-bottom: 0;
+                    border-bottom: 0.278vw solid #2f3250;
+                }
+
+                &--header {
+                    margin-top: 1.146vw;
+                    @media (max-width: 1365px){
+                        margin-top: 1.612vw;
+                    }
+                
+                    @media (max-width: 1024px){
+                        margin-top: 2.868vw;
+                    }
+                
+                    @media (max-width: 767px){
+                        margin-top: 0;
+                    }
+                }
+
+                & p {
+                    font-size: 0.729vw;
+                    @media (max-width: 1365px){
+                        font-size: 1.026vw;
+                    }
+                
+                    @media (max-width: 1024px){
+                        font-size: 1.825vw;
+                    }
+                
+                    @media (max-width: 767px){
+                        font-size: 3.333vw;
+                    }
+                }
+            }
+        }
+    }
+}

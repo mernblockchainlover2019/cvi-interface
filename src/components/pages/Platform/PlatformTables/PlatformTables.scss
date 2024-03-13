@@ -1,0 +1,48 @@
+.platform-tables-component {
+  & tr {
+    &.trade-row, &.liquidity-row  {
+      &:first-child {
+        & td {
+          &:first-child {
+            width: 5.646vw;
+
+            @media (max-width: 1365px) {
+              width: 6.128vw;
+            }
+          }
+        }
+      }
+
+      & .coin-component--img {
+        width: 18px;
+        height: 18px;
+        margin-right: 8px;
+      }
+      .actions-wrapper {
+        display:flex;
+        align-items: center;
+        justify-content: flex-end;
+        vertical-align: middle;
+        height: 100%;
+      }
+    }
+  }
+
+  .table-component tbody tr td {
+    width: auto;
+  }
+}
+
+.row-actions-wrapper {
+  display:flex;
+  align-items: center;
+  justify-content: flex-end;
+  vertical-align: middle;
+  height: 100%;
+  @media (max-width: 767px) {
+    flex-direction: column;
+    .action-controller_component, .migrate-component {
+      width: 100%;
+    }
+  }
+}

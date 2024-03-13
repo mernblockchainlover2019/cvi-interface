@@ -1,0 +1,109 @@
+[
+    {
+        "name": "GOVI",
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    {
+        "name": "USDC",
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    {
+        "name": "USDT",
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    {
+        "name": "WETH",
+        "events": [
+            "Approval",
+            "Deposit",
+            "Transfer",
+            "Withdrawal"
+        ]
+    },
+    {
+        "name": "WMATIC",
+        "events": [
+            "Approval",
+            "Transfer",
+            "Deposit",
+            "Withdrawal"
+        ]
+    },
+    {
+        "name": "UNIV2GOVIETH",
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    {
+        "name": "CVOL-USDT-Platform",
+        "events": [
+            "Approval",
+            "ClosePosition",
+            "Deposit",
+            "OpenPosition",
+            "Transfer",
+            "Withdraw"
+        ]
+    },
+    {
+        "name": "CVOL-USDT-PositionRewards",
+        "events": [
+            "Claimed"
+        ]
+    },
+    {
+        "name": "GOVIETH-StakingRewards",
+        "events": [
+            "RewardAdded",
+            "RewardPaid",
+            "Staked",
+            "Withdrawn"
+        ]
+    },
+    {
+        "name": "USDTLP-StakingRewards",
+        "events": [
+            "RewardAdded",
+            "RewardPaid",
+            "Staked",
+            "Withdrawn"
+        ]
+    },
+    {
+        "name": "CVOL-USDC-Platform",
+        "events": [
+            "Approval",
+            "ClosePosition",
+            "Deposit",
+            "OpenPosition",
+            "Transfer",
+            "Withdraw"
+        ]
+    },
+    {
+        "name": "CVOL-USDC-PositionRewards",
+        "events": [
+            "Claimed"
+        ]
+    },
+    {
+        "name": "CVOL-USDCLP-StakingRewards",
+        "events": [
+            "RewardAdded",
+            "RewardPaid",
+            "Staked",
+            "Withdrawn"
+        ]
+    }
+]

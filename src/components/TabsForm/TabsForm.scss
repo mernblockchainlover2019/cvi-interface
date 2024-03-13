@@ -1,0 +1,45 @@
+.tabs-form-component {
+    position: relative;
+ 
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #222540;
+        border-radius: 0.833vw;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+
+        &--right {
+            padding-right: 1.563vw;
+            
+            @media (max-width: 1365px){   
+                padding-right: 2.198vw;
+            }
+        }
+
+        @media (max-width: 767px) {
+            border-radius: 4.444vw;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            flex-direction: column;
+            & .tabs-component {
+                display: flex;
+                border-bottom: solid 0.278vw rgba(43, 190, 222, 0.2);
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    }
+
+    &__container {
+        border-bottom-left-radius: 0.833vw;
+        border-bottom-right-radius: 0.833vw;
+
+        @media (max-width: 767px) {
+            display: flex;
+            justify-content: center;
+            border: 0;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.graphs-component {
+    &.single-graph {
+        position: relative;
+        background-color: transparent;
+        margin-left: 0;
+        margin-bottom: 128px;
+        
+        @media (max-width: 1365px) {
+            margin-bottom: 9.377vw;
+        }
+        
+        @media (max-width: 1024px){
+            margin-bottom: 6.258vw;
+        }
+        
+        @media (max-width: 767px){
+            margin-bottom: 0;
+            height: 248px;
+        }
+
+        #vix-graph {
+            transform: translateX(20px) scale(0.96)
+        }
+    }
+
+    & .single-graph__container {
+        min-height: 400px;
+    }
+}

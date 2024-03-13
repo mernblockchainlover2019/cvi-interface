@@ -1,0 +1,25 @@
+.metamask-asset-component {
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    padding: 0;
+    position: relative;
+    top: 0.104vw;
+
+    @media (max-width: 1365px){   
+        top: 0.147vw;        
+    }
+
+    @media (max-width: 1024px){ 
+        top: 1.067vw;
+    }
+
+    @media (max-width: 767px) {
+        top: 2vw;
+    }
+
+    &.external-link {
+        margin-left: 0;
+    }
+}

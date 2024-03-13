@@ -1,0 +1,179 @@
+#my-wallet-modal {
+    & .my-wallet-modal__buttons {
+        & .button {
+            box-shadow: none;
+            background-color: #264fa1;
+            width: 100%;
+            font-weight: normal;
+            line-height: 1.5;
+            border-radius: 0.417vw;
+            height: 2.917vw;
+            font-size: 0.833vw;
+
+            @media (max-width: 1365px){   
+                border-radius: 0.586vw;
+                height: 4.103vw;
+                font-size: 1.172vw;
+            }
+
+            @media (max-width: 1024px){ 
+                border-radius: 8px;
+                height: 56px;
+                font-size: 16px;
+            }
+
+            @media (max-width: 767px) {
+                border-radius: 8px;
+                height: 56px;
+                font-size: 16px;
+
+                width: 100%;
+                &:last-child {
+                    margin-top: 0.833vw;
+
+                    @media (max-width: 1365px){   
+                        margin-top: 1.172vw;
+                    }
+        
+                    @media (max-width: 1024px){ 
+                        margin-top: 16px;
+                    }
+        
+                    @media (max-width: 767px){
+                        margin-top: 16px;
+                    }
+                }
+            }
+
+            &:first-child {
+                background-color: #182f5d;
+            }
+        }
+    }
+
+    .modal__container {
+        .title {
+            font-size: 1.667vw;
+            font-weight: normal;
+            line-height: 0.75;
+            color: white;
+
+            @media (max-width: 1365px){   
+                font-size: 2.344vw;
+            }
+
+            @media (max-width: 1024px){ 
+                font-size: 4.172vw;
+                text-emphasis: none;
+            }
+
+            @media (max-width: 767px){
+                font-size: 8.889vw;
+                text-align: center;
+            }
+        }
+
+        & p.address {
+            font-size: 0.833vw;
+            line-height: 1.25vw;
+            font-weight: normal;
+            text-align: center;
+            color: white;
+            margin-bottom: 0;
+            word-break: break-all;
+
+            @media (max-width: 1365px){   
+                font-size: 1.172vw;
+                line-height: 1.758vw;
+            }
+
+            @media (max-width: 1024px){ 
+                font-size: 16px;
+                line-height: 24px;
+            }
+
+            @media (max-width: 767px){
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+
+        & .account-info {
+            max-width: 100%;
+        
+            &__actions {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+                @media (max-width: 1024px){ 
+                    margin-top: 8px;
+                }
+    
+                @media (max-width: 480px) {
+                    justify-content: space-between;
+                }
+
+                & a {
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    text-decoration: none;
+                    margin-left: 1.615vw;
+
+                    @media (max-width: 1365px){   
+                        margin-left: 2.271vw;
+                    }
+        
+                    @media (max-width: 1024px){ 
+                        margin-left: 31px;
+                    }
+        
+                    @media (max-width: 767px){
+                        margin-left: 31px;
+                    }
+                    
+                    & img {
+                        margin-right: 0.417vw;
+                        width: 1.25vw;
+                        height: 1.25vw;
+
+                        @media (max-width: 1365px){   
+                            margin-right: 0.586vw;
+                            width: 1.758vw;
+                            height: 1.758vw;
+                        }
+            
+                        @media (max-width: 1024px){ 
+                            margin-right: 8px;
+                            width: 24px;
+                            height: 24px;
+                        }
+            
+                        @media (max-width: 767px){
+                            margin-right: 8px;
+                            width: 24px;
+                            height: 24px;
+                        }
+                    }
+
+                    & span {
+                        white-space: nowrap;
+                        font-size: 0.729vw;
+                        @media (max-width: 1365px){   
+                            font-size: 1.026vw;
+                        }
+            
+                        @media (max-width: 1024px){ 
+                            font-size: 1.825vw;
+                        }
+            
+                        @media (max-width: 767px){
+                            font-size: 2.778vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

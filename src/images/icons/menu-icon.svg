@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="menu_icon_white" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-2{fill:#fff}
+        </style>
+    </defs>
+    <path id="Rectangle_69" fill="none" d="M0 0H24V24H0z"/>
+    <g id="Group_5735" transform="translate(-1 -1)">
+        <rect id="Rectangle_536" width="18" height="2.473" class="cls-2" rx="1" transform="translate(4 7)"/>
+        <path id="Path_4020" d="M6 0h11a1 1 0 0 1 1 1v.473a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1z" class="cls-2" transform="translate(4 16.527)"/>
+        <rect id="Rectangle_538" width="18" height="2.473" class="cls-2" rx="1" transform="translate(4 11.765)"/>
+    </g>
+</svg>

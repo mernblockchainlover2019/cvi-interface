@@ -1,0 +1,20 @@
+<svg id="volatility_tokens_icon" data-name="volatility tokens icon" xmlns="http://www.w3.org/2000/svg" width="72" height="72">
+    <defs>
+        <style>
+            .cls-3{fill:#f8ba15}.cls-4{fill:#2bbede}.cls-5{fill:#fea716}
+        </style>
+    </defs>
+    <circle id="Ellipse_150" data-name="Ellipse 150" cx="36" cy="36" r="36" style="fill:#2f3250"/>
+    <g id="volatility_icon" data-name="volatility icon" transform="translate(-448.935 -450.191)">
+        <path id="Rectangle_2653" data-name="Rectangle 2653" transform="translate(463.298 463.857)" style="fill:none" d="M0 0h44.669v44.669H0z"/>
+        <rect id="Rectangle_2668" data-name="Rectangle 2668" class="cls-3" width="3.557" height="19.853" rx="1.778" transform="translate(462.85 470.285)"/>
+        <rect id="Rectangle_2669" data-name="Rectangle 2669" class="cls-4" width="3.557" height="19.853" rx="1.778" transform="translate(478.572 467.451)"/>
+        <rect id="Rectangle_2670" data-name="Rectangle 2670" class="cls-5" width="3.557" height="19.853" rx="1.778" transform="translate(494.294 475.807)"/>
+        <rect id="Rectangle_2671" data-name="Rectangle 2671" class="cls-3" width="3.557" height="15.187" rx="1.778" transform="translate(499.534 482.652)"/>
+        <rect id="Rectangle_2672" data-name="Rectangle 2672" class="cls-4" width="3.557" height="22.436" rx="1.778" transform="translate(504.775 471.434)"/>
+        <rect id="Rectangle_2673" data-name="Rectangle 2673" class="cls-5" width="3.557" height="19.853" rx="1.778" transform="translate(468.091 475.807)"/>
+        <rect id="Rectangle_2674" data-name="Rectangle 2674" class="cls-3" width="3.557" height="26.987" rx="1.778" transform="translate(473.331 478.919)"/>
+        <rect id="Rectangle_2675" data-name="Rectangle 2675" width="3.557" height="26.987" rx="1.778" transform="translate(483.812 473.829)" style="fill:#007acb"/>
+        <rect id="Rectangle_2676" data-name="Rectangle 2676" class="cls-3" width="3.557" height="32.488" rx="1.778" transform="translate(489.053 473.332)"/>
+    </g>
+</svg>

@@ -1,0 +1,38 @@
+<svg id="graph" xmlns="http://www.w3.org/2000/svg" width="273" height="224" viewBox="0 0 273 224">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:#fff;font-family:OpenSans,Open Sans}.cls-1{font-size:10px}.cls-2{font-size:13px}.cls-4,.cls-5{fill:none}.cls-5{stroke:#fff}.cls-4{stroke:#2f3250}.cls-5{stroke-linecap:round}
+        </style>
+    </defs>
+    <g id="numbers">
+        <g id="Group_6185" data-name="Group 6185" transform="translate(45 210)">
+            <text id="_0" data-name="0" class="cls-1" transform="translate(3 11)"><tspan x="-2.859" y="0">0</tspan></text>
+            <text id="_3_Hours" data-name="3 Hours" class="cls-1" transform="translate(209 11)"><tspan x="-18.362" y="0">3 Hours</tspan></text>
+            <text id="_2_Hours" data-name="2 Hours" class="cls-1" transform="translate(143 11)"><tspan x="-18.362" y="0">2 Hours</tspan></text>
+            <text id="_1_Hour" data-name="1 Hour" class="cls-1" transform="translate(77 11)"><tspan x="-15.977" y="0">1 Hour</tspan></text>
+        </g>
+        <text id="_1.00_" data-name="1%" class="cls-2" transform="translate(0 14)"><tspan x="0" y="0">1.00%</tspan></text>
+        <text id="_0.00_" data-name="0%" class="cls-2" transform="translate(0 198)"><tspan x="0" y="0">0.00%</tspan></text>
+    </g>
+    <g id="lines" transform="translate(48 6.5)">
+        <g id="Group_6187" data-name="Group 6187">
+            <path id="Line_201" data-name="Line 201" transform="translate(.5 186)" style="stroke:#fff;fill:none" d="M0 0h207.184"/>
+            <path id="Line_22" data-name="Line 22" class="cls-4" transform="translate(.5 112)" d="M0 0h207.184"/>
+            <path id="Line_23" data-name="Line 23" class="cls-4" transform="translate(.5 148.999)" d="M0 0h207.184"/>
+            <path id="Line_24" data-name="Line 24" class="cls-4" transform="translate(.5 74)" d="M0 0h207.184"/>
+            <path id="Line_194" data-name="Line 194" class="cls-4" transform="translate(.5 37)" d="M0 0h207.184"/>
+            <path id="Line_115" data-name="Line 115" class="cls-4" transform="translate(.5)" d="M0 0h207.5"/>
+        </g>
+        <path id="Line_132" data-name="Line 132" class="cls-4" transform="translate(.5 1.499)" d="M0 186V0"/>
+        <path id="Line_199" data-name="Line 199" class="cls-4" transform="translate(70 1.5)" d="M0 186V0"/>
+        <path id="Line_200" data-name="Line 200" class="cls-4" transform="translate(208 1.5)" d="M0 186V0"/>
+        <path id="Line_198" data-name="Line 198" class="cls-4" transform="translate(139 1.5)" d="M0 186V0"/>
+    </g>
+    <g id="Group_6186" data-name="Group 6186" transform="translate(48.5 192.5)">
+        <path id="Line_25" data-name="Line 25" class="cls-5" transform="translate(0 .138)" d="M0 15.362V0"/>
+        <path id="Line_28" data-name="Line 28" class="cls-5" transform="translate(138.666)" d="M0 14.903V0"/>
+        <path id="Line_32" data-name="Line 32" class="cls-5" transform="translate(208 .138)" d="M0 15.362V0"/>
+        <path id="Line_33" data-name="Line 33" class="cls-5" transform="translate(69.333 .138)" d="M0 15.362V0"/>
+    </g>
+    <path id="Line_191" data-name="Line 191" transform="translate(117.5 6.5)" style="stroke:#f8ba15;stroke-linecap:round;fill:none" d="m0 0 139 185"/>
+</svg>

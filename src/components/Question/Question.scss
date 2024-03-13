@@ -1,0 +1,172 @@
+.question-component {
+    max-width: 31.667vw;
+
+    @media (max-width: 1365px){   
+        max-width: 44.542vw;
+    }
+
+    @media (max-width: 1024px){ 
+        max-width: 79.27vw;
+    }
+
+    @media (max-width: 767px){
+        max-width: 100%;
+    }
+
+    &.open {
+        @keyframes questionComponentOpen {
+            0% {
+                top: -200px;
+                opacity: 0;
+            }
+            100% {
+                top: 0;
+                opacity: 1;
+            }
+        }
+
+        & .question-component__container {
+            overflow: hidden;
+            &--content {
+                position: relative;
+                animation: questionComponentOpen 0.5s;
+                animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+            }
+        }
+    }
+
+    &__container {
+        &--header {
+            background: transparent;
+            border: 0;
+            outline: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            z-index: 1;
+            padding: 0;
+            height: 4.167vw;
+
+            @media (max-width: 1365px) {
+                height: 5.861vw;
+            }
+
+            @media (max-width: 1024px) {
+                height: 10.43vw;
+            }
+
+            @media (max-width: 767px) {
+                height: 16.667vw;
+            }
+
+            & img {
+                margin-right: 0.833vw;
+                width: 1.25vw;
+                height: 1.25vw;
+
+                @media (max-width: 1365px) {
+                    margin-right: 1.172vw;
+                    width: 1.758vw;
+                    height: 1.758vw;
+                }
+
+                @media (max-width: 1024px) {
+                    margin-right: 2.086vw;
+                    width: 3.129vw;
+                    height: 3.129vw;
+                }
+
+                @media (max-width: 767px) {
+                    margin-right: 4.444vw;
+                    width: 6.667vw;
+                    height: 6.667vw;
+                }
+            }
+
+            & h2 {
+                font-weight: normal;
+                color: #11254d;
+                margin: 0;
+                font-size: 0.833vw;
+                text-align: left;
+
+                @media (max-width: 1365px) {
+                    font-size: 1.172vw;
+                }
+
+                @media (max-width: 1024px) {
+                    font-size: 2.086vw;
+                }
+
+                @media (max-width: 767px) {
+                    font-size: 3.889vw;
+                }
+            }
+        }
+
+        &--underline {
+            text-decoration: underline;
+            margin-right: 0.26vw;
+            @media (max-width: 1365px) {
+                margin-right: 0.366vw;
+            }
+
+            @media (max-width: 1024px) {
+                margin-right: 0.652vw;
+            }
+
+            @media (max-width: 767px) {
+                margin-right: 1.389vw;
+            }
+        }
+
+        &--link {
+            margin-left: 0.156vw;
+            color: #007acb;
+            text-decoration: none;
+            
+            @media (max-width: 1365px) {
+                margin-left: 0.22vw;
+            }
+
+            @media (max-width: 1024px) {
+                margin-left: 0.391vw;
+            }
+
+            @media (max-width: 767px) {
+                margin-left: 0.833vw;
+            }
+        }
+
+        &--content {
+            font-weight: normal;
+            color: #11254d;
+            font-size: 0.729vw;
+            transform: translateY(-0.521vw);
+            margin: 0 0 0.833vw 2.083vw;
+
+            @media (max-width: 1365px) {
+                font-size: 1.026vw;
+                margin: 0 0 1.172vw 2.93vw;
+                transform: translateY(-0.733vw);
+            }
+
+            @media (max-width: 1024px) {
+                font-size: 1.825vw;
+                margin: 0 0 2.086vw 5.214vw;
+                transform: translateY(-1.304vw);
+            }
+
+            @media (max-width: 767px) {
+                font-size: 3.333vw;
+                transform: translateY(-2.778vw);
+                margin: 2.222vw 0 4.444vw 11.111vw;
+            }
+
+            & ul {
+                padding: 0;
+            }
+        }
+    }
+}

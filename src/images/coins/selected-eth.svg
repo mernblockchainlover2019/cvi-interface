@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ethereum_coin_selected" width="64" height="64.001" viewBox="0 0 64 64.001">
+    <defs>
+        <style>
+            .cls-2{fill:#fff;opacity:.8}.cls-3{opacity:.1}
+        </style>
+    </defs>
+    <g id="ethereum_coin">
+        <circle id="Ellipse_53" cx="32" cy="32" r="32" fill="#627eea"/>
+        <g id="Group_5661" transform="translate(19.303 12)">
+            <path id="Path_3816" d="M34.649 17.4a40.557 40.557 0 0 1-2.6 3.6c-3.2 4.4-9.4 13.2-9.8 13.6-.4-.6-1-1.2-1.4-1.8l-3-4.2a30.516 30.516 0 0 1-2.2-3.2l-3-4.2c-.8-1.2-1.6-2.2-2.4-3.4 0-.2-.2-.2-.2-.4.2 0 .4.2.6.2 1.2.8 2.6 1.4 3.8 2.2 1 .6 2 1.2 3.2 1.8 1.4.8 2.6 1.6 4 2.4.2.2.8.4 1 .6.2-.2 7.4-4.4 11-6.4a2 2 0 0 1 1-.8z" class="cls-2" transform="translate(-9.253 5.4)"/>
+            <path id="Path_3817" d="M28.5 26.4l-12.2 7.4L16.2 6s8.9 14.8 12.3 20.4z" class="cls-3" transform="translate(-3.103 -6)"/>
+            <path id="Path_3818" d="M9.651 26.6l13.2 7.2L22.747 6S13.051 21 9.651 26.6z" class="cls-2" transform="translate(-9.651 -6)"/>
+            <path id="Path_3819" d="M35.047 19.25c-.424.318-12 7.4-12.2 7.4-.2-.2-13.2-7.2-13.2-7.2l13.2-6.3z" class="cls-3" transform="translate(-9.651 1.15)"/>
+            <path id="Path_3820" d="M28.549 17.4l-12.4 7.108V34.6z" class="cls-3" transform="translate(-3.153 5.4)"/>
+        </g>
+    </g>
+    <path id="Path_4858" fill="#f8ba15" d="M717.768 788.751a32 32 0 1 1 32-32 32.036 32.036 0 0 1-32 32zm0-60a28 28 0 1 0 28 28 28.031 28.031 0 0 0-28-28z" transform="translate(-685.768 -724.75)"/>
+</svg>

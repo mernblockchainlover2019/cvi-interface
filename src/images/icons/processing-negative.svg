@@ -1,0 +1,16 @@
+<svg id="processing_icon" data-name="processing icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <style>
+            .cls-2{fill:#f8ba15}
+        </style>
+    </defs>
+    <g id="Group_6534" data-name="Group 6534">
+        <path id="Rectangle_2399" data-name="Rectangle 2399" style="fill:none" d="M0 0h16v16H0z"/>
+        <g id="Group_6412" data-name="Group 6412" transform="translate(.667 .667)">
+            <path id="Path_4828" data-name="Path 4828" class="cls-2" d="M8.333 15.667a7.333 7.333 0 1 1 7.333-7.333 7.342 7.342 0 0 1-7.333 7.333zm0-13.333a6 6 0 1 0 6 6 6.007 6.007 0 0 0-6-6.001z" transform="translate(-1 -1)"/>
+        </g>
+        <g id="Group_6413" data-name="Group 6413" transform="translate(7.32 3.459)">
+            <path id="Path_4829" data-name="Path 4829" class="cls-2" d="m13.785 12.36-2.792-2.316-.013-4.856h1.333l.013 4.227 2.306 1.916z" transform="translate(-10.98 -5.188)"/>
+        </g>
+    </g>
+</svg>

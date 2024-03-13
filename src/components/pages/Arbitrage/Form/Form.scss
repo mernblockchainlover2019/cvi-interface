@@ -1,0 +1,55 @@
+.arbitrage-form-component {
+    height: 100%;
+    width: 30%;
+    max-width: 100%;
+    padding-right: 1.875vw;
+    @media (max-width: 1365px) {
+        padding-right: 2.637vw; 
+        width: 50%;
+    }
+
+    @media (max-width: 1024px) {
+        padding-right: 0;
+        width: 100%;
+    }
+
+    & .action-controller_component {
+        & .input-group-component.amount-component__group {
+            margin-top: 0;
+        }
+    }
+
+}
+
+.see-more-component {
+    margin-top: 0.833vw;
+    @media (max-width: 1365px) {
+        margin-top: 1.172vw;
+    }
+
+    @media (max-width: 1024px) {
+        margin: 1.758vw 0;
+    }
+    
+    @media (max-width: 767px) {
+        margin: 4.444vw 0;
+    }
+
+    & p {
+        line-height: 1.25vw;
+        font-size: 0.625vw;
+        margin: 0;
+        @media (max-width: 1365px) {
+            font-size: 0.879vw;
+            line-height: 1.758vw;
+        }
+        @media (max-width: 1024px) {
+            font-size: 1.565vw;
+            line-height: 3.129vw;
+        }
+        @media (max-width: 767px) {
+            font-size: 3.333vw;
+            line-height: 6.667vw;
+        }
+    }
+}

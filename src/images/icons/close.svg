@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="close" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1,.cls-3{fill:none}.cls-3{stroke:#fff;stroke-linecap:round;stroke-width:2px}
+        </style>
+    </defs>
+    <path id="Rectangle_546" d="M0 0H24V24H0z" class="cls-1"/>
+    <g id="Ellipse_7" stroke="#707070" opacity="0.5">
+        <circle cx="12" cy="12" r="12" stroke="none"/>
+        <circle cx="12" cy="12" r="11.5" class="cls-1"/>
+    </g>
+    <path id="Line_2" d="M0 0L7.129 7.129" class="cls-3" transform="translate(8.435 8.436)"/>
+    <path id="Line_3" d="M7.129 0L0 7.129" class="cls-3" transform="translate(8.435 8.436)"/>
+</svg>

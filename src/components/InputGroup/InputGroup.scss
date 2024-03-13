@@ -1,0 +1,36 @@
+.input-group-component {
+    & label {
+        font-size: 0.938vw;
+        font-weight: normal;
+        color: white;
+
+        @media (max-width: 1365px){
+            font-size: 1.319vw;
+        }
+
+        @media (max-width: 1024px){
+            font-size: 2.347vw;
+        }
+
+        @media (max-width: 767px){
+            font-size: 5vw;
+        }
+    }
+    
+    & input {
+        margin-top: 0.833vw;
+        @media (max-width: 1365px){
+            margin-top: 1.172vw;
+        }
+
+        @media (max-width: 1024px){
+            margin-top: 2.086vw;
+        }
+
+        @media (max-width: 767px){
+            margin-top: 4.444vw;
+            padding-top: 1.389vw;
+        }
+    }
+
+}

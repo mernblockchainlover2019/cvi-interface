@@ -1,0 +1,107 @@
+.count-down-component {
+    display: flex;
+    flex-direction: column;
+
+    & .processing {
+        align-self: unset;
+        white-space: nowrap;
+        
+        @media (max-width: 1024px) {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        @media (max-width: 767px) { 
+            align-self: unset;
+        }
+
+        & img {
+            margin-right: 0.208vw;
+            width: 0.833vw;
+            height: 0.833vw;
+            transform: translateY(0.156vw);
+            @media (max-width: 1365px) {
+                margin-right: 0.294vw;  
+                width: 1.172vw;
+                height: 1.172vw;   
+                transform: translateY(0.22vw);
+            }
+
+            @media (max-width: 1024px) {
+                margin-right: 1.044vw;    
+                width: 2.086vw;
+                height: 2.086vw;     
+                transform: translateY(0);
+            }
+            
+            @media (max-width: 767px) {
+                margin-right: 1.666vw;
+                width: 4.444vw;
+                height: 4.444vw;
+            }
+        }
+
+        & b {
+            margin-right: 0.104vw;
+            font-size: 0.729vw;
+
+            @media (max-width: 1365px) {
+                margin-right: 0.147vw;
+                font-size: 1.026vw;      
+            }
+
+            @media (max-width: 1024px) {
+                margin-right: 0.261vw;
+                font-size: 1.825vw;       
+            }
+            
+            @media (max-width: 767px) {
+                margin-right: 0.733vw;
+                font-size: 3.333vw; 
+                margin-top: auto;      
+            }
+        }
+
+        & small {
+            font-size: 0.521vw;
+            margin: auto 0;
+            @media (max-width: 1365px) {
+                font-size: 0.733vw;        
+            }
+
+            @media (max-width: 1024px) {
+                font-size: 1.304vw;      
+            }
+            
+            @media (max-width: 767px) {
+                font-size: 2.222vw;     
+                margin: auto 0 0 0;
+            }
+        }
+    }
+
+    & .insufficient-liquidity {
+        position: relative;
+        & span.insufficient-content {
+            display: flex;
+            align-items: center;
+            margin-top: 0.26vw;
+            font-size: 0.729vw;
+
+            @media (max-width: 1365px) {
+                margin-top: 0.366vw;
+                font-size: 1.026vw;      
+            }
+
+            @media (max-width: 1024px) {
+                margin-top: 0.652vw;
+                font-size: 1.825vw;       
+            }
+            
+            @media (max-width: 767px) {
+                margin-top: 1.389vw;
+                font-size: 3.333vw;      
+            } 
+        }
+    }
+}

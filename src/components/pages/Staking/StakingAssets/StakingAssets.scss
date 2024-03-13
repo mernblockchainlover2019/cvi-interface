@@ -1,0 +1,11 @@
+.table-component {
+    &.staked  {
+        & .row-actions-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            vertical-align: middle;
+            height: 100%;
+        }
+    }
+}

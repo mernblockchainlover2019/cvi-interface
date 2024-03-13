@@ -1,0 +1,80 @@
+.checkbox-component {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  .checkbox {
+    margin: 0;
+    margin-inline-end: 0.417vw;
+    width: 0.938vw;
+    height: 0.938vw;
+    padding: 0;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 1365px) {
+      margin-right: 0.586vw;
+      width: 1.319vw;
+      height: 1.319vw;
+    }
+    @media (max-width: 1024px) {
+      margin-right: 1.043vw;
+      width: 2.347vw;
+      height: 2.347vw;
+    }
+    @media (max-width: 767px) {
+      margin-right: 2.222vw;
+      width: 5vw;
+      height: 5vw;
+    }
+    &:hover {
+      border: 2px solid #fea716;
+      background: rgba(254, 167, 22, 0.5);
+      transition: all 0.2s ease-in;
+    }
+    &.checked {
+      border: 2px solid #fea716;
+      background: transparent;
+      transition: all 0.2s ease-in;
+    }
+    .check-mark {
+      padding: 0.104vw;
+      width: 1.042vw;
+      height: 1.042vw;
+      object-fit: contain;
+      @media (max-width: 1365px) {
+        padding: 0.147vw;
+        width: 1.465vw;
+        height: 1.465vw;
+      }
+      @media (max-width: 1024px) {
+        padding: 0.261vw;
+        width: 2.608vw;
+        height: 2.608vw;
+      }
+      @media (max-width: 767px) {
+        padding: 0.556vw;
+        width: 5.556vw;
+        height: 5.556vw;
+      }
+    }
+  }
+  .checkbox-title {
+    font-size: 0.625vw;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    @media (max-width: 1365px) {
+      font-size: 0.879vw;
+    }
+    @media (max-width: 1024px) {
+      font-size: 1.565vw;
+    }
+    @media (max-width: 767px) {
+      font-size: 3.333vw;
+    }
+  }
+}

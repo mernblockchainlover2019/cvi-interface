@@ -1,0 +1,43 @@
+name: Main
+
+on: [push]
+
+jobs:
+  build:
+    name: Github Actions Build
+    timeout-minutes: 20
+    runs-on: ubuntu-20.04
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Use Node.js v16.13.2
+        uses: actions/setup-node@v1
+        with:
+          node-version: v16.13.2
+
+      - name: Yarn Install
+        run: |
+          echo "//registry.npmjs.org/:_authToken=${NPM_READ_TOKEN}" > ~/.npmrc
+          yarn install --frozen-lockfile
+        env:
+          NPM_READ_TOKEN: '${{ secrets.NPM_READ_TOKEN }}'
+
+      - name: React Build
+        run: yarn build
+
+      - name: Deploy To Surge
+        run: yarn deploy-to-surge
+        env:
+          BOT_GITHUB_ACCESS_TOKEN: '${{ secrets.BOT_GITHUB_ACCESS_TOKEN }}'
+
+      ###############
+      # temporarly, deployment to production will be manual.
+      ###############
+      # - name: Deploy Production Version To AWS S3
+      #   run: yarn deploy-production-to-aws-s3
+      #   env:
+      #     AWS_ACCESS_KEY_ID: ${{ secrets.STAV_AWS_ACCESS_KEY }}
+      #     AWS_SECRET_ACCESS_KEY: ${{ secrets.STAV_AWS_SECRET_ACCESS_KEY }}
+      #     AWS_DEFAULT_REGION: us-east-1
+      #     AWS_DEFAULT_OUTPUT: json

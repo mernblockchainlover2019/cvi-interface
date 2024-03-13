@@ -1,0 +1,15 @@
+.arbitrage-component {
+  background-color: #0f112d;
+  flex: 1;
+
+  & .mint-burn-column-component {
+    width: 40%;
+    
+    @media (max-width: 1024px) {
+      width: 100%;
+    }
+  }
+  & .arbitrage-table-column-component {
+    max-width: 100% !important;
+  }
+}

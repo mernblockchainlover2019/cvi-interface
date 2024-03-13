@@ -1,0 +1,53 @@
+.sell-all-modal {
+    text-align: center;
+    &.error-modal.basic .modal__container {
+        @media (max-width: 767px) { 
+            align-items: center;
+        }
+    }
+    & .modal__container{
+        width: 100%;
+
+        & .sell-all-modal--actions {
+            display: flex;
+            justify-content: space-around;
+
+            button {
+                text-transform: uppercase;
+            }
+
+            @media (max-width: 1024px) {
+                flex-wrap: wrap;
+            }
+        }
+
+        & h2, & .notice {
+            text-align: center;
+
+            & b {
+                display: block;
+                margin-top: 32px;
+            }
+        }
+
+        & .notice {
+            width: 4.167vw;
+            height: 4.167vw;
+            @media (max-width: 1365px) {
+                width: 5.861vw;
+                height: 5.861vw;
+            }
+
+            @media (max-width: 1024px) {
+                width: 10.43vw;
+                height: 10.43vw;
+            }
+
+            @media (max-width: 767px) {
+                width: 22.222vw;
+                height: 22.222vw;
+            }
+        }
+    
+    }
+}

@@ -1,0 +1,21 @@
+.steps-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3.516vw auto 0 auto;
+    position: relative;
+    padding: 0 2.344vw;
+    width: calc(100% - (2.344vw * 2));
+    @media (max-width: 767px) {
+    margin: 6.667vw auto 0 auto;
+      }
+    .steps-line {
+        width: calc(100% - (2.344vw * 4));
+        height: 1px;
+        position: absolute;
+        top: 20px;
+        left: calc(2.344vw * 2);
+        background: #264fa1;
+        z-index: 10;
+    }
+}

@@ -1,0 +1,99 @@
+.sell-info-component {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    &__warning {
+        font-weight: normal;
+        margin: 0.417vw 0 0 0;
+        padding: 0.417vw 0.833vw;
+        border-radius: 0.417vw;
+        border: solid 0.052vw #bb1e52;
+        font-size: 0.729vw;
+        line-height: 1.25vw;
+        min-height: 3.333vw;
+        color: white;
+
+        @media (max-width: 1365px) { 
+            margin: 0.586vw 0 0 0;
+            padding: 0.586vw 1.172vw;
+            border-radius: 0.586vw;
+            border: solid 0.073vw #bb1e52;
+            font-size: 1.026vw;
+            line-height: 1.758vw;
+            min-height: 4.689vw;
+        }
+
+        @media (max-width: 1024px) { 
+            margin: 1.043vw 0 0 0;
+            padding: 1.043vw 2.086vw;
+            border-radius: 1.043vw;
+            border: solid 0.13vw #bb1e52;
+            font-size: 1.825vw;
+            line-height: 3.129vw;
+            min-height: 8.344vw;
+        }
+
+        @media (max-width: 767px) { 
+            margin: 2.222vw 0 0 0;
+            padding: 2.222vw 4.444vw;
+            border-radius: 2.222vw;
+            border: solid 0.278vw #bb1e52;
+            font-size: 3.889vw;
+            line-height: 6.667vw;
+            min-height: 17.778vw;
+        }
+    }
+
+    &__row {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0.938vw;
+
+        @media (max-width: 1365px){   
+            margin-top: 1.319vw;
+        }
+
+        @media (max-width: 1024px) {
+            margin-top: 2.347vw;
+        }
+
+        @media (max-width: 767px){
+            margin-top: 3.333vw;    	
+        }
+        
+        &:first-child {
+            margin-top: 0;
+        }
+
+        &.high {
+            & span, & b {
+                color: #2bdec1;
+            }
+        }
+
+        &.low {
+            & span, & b {
+                color: #f96a9a;
+            }
+        }
+
+        & span, & b {
+            font-size: 0.729vw;
+            
+            @media (max-width: 1365px){   
+                font-size: 1.026vw;
+            }
+
+            @media (max-width: 1024px){ 
+                font-size: 1.825vw;
+            }
+
+            @media (max-width: 767px){
+                font-size: 3.889vw;
+            }
+        }
+    }
+}

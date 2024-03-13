@@ -1,0 +1,174 @@
+.tabs-component {
+    display: flex;
+    padding: 0 2.917vw;
+
+    @media (max-width: 1024px) {
+        padding: 0 3.129vw;
+    }
+
+    @media (max-width: 767px) {
+        padding: 0;
+        width: 100%;
+    }
+
+    &__dropdown {
+        width: 100%;
+        height: 100%;
+        &.is-open {
+            & .tabs-component__dropdown--header {
+                & img {
+                    transform: rotateZ(180deg);
+                }
+            }
+        }
+
+        &--header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 15.556vw;
+            border-radius: 2.778vw;
+            width: calc(8.889vw + 100%);
+            transform: translate(-4.444vw, 0);
+            padding: 0 4.444vw;
+            background-color: #fea716;
+            position: relative;
+            z-index: 10;
+            border: 1px solid #fea716;
+
+            &.is-open {
+                background-color: #1b1d38;
+                border-radius: 2.778vw 2.778vw 0 0;
+            }
+
+            & img {
+                transition: 0.2s all;
+                width: 6.667vw;
+                height: 6.667vw;
+            }
+
+            & > .tabs-component__tab {
+                text-align: left;
+                padding: 0;
+                border: 0;
+            }
+        }
+
+        &--options {
+            display: flex;
+            width: calc(8.889vw + 100%);
+            flex-direction: column;
+            background-color: #1b1d38;
+            transform: translate(-4.444vw, -2.222vw);
+            border: 1px solid #fea716;
+            border-top: 0;
+            padding: 0 4.444vw;
+            padding-top: 2.222vw;
+            border-bottom-left-radius: 2.222vw;
+            border-bottom-right-radius: 2.222vw;
+
+            & .tabs-component__tab  {
+                min-height: 13.556vw;
+            }
+        }
+    }
+
+    &__tab {
+        cursor: pointer;
+        font-size: 0.938vw;
+        background-color: transparent;
+        outline: 0;
+        border: 0;
+        height: 4.167vw;
+        text-align: center;
+        color: #b2bfce;
+        margin-right: 1.458vw;
+        white-space: nowrap;
+        text-shadow: none;
+        transition: 0.3s all ease-in-out;
+        border-bottom: 0.208vw solid transparent;
+        
+        @media (max-width: 1365px) {
+            font-size: 1.319vw;
+            border-bottom: 0.293vw solid transparent;
+            height: 5.861vw;
+        }
+
+        @media (max-width: 1024px) {
+            font-size: 2.347vw;
+            height: 10.43vw;
+            border-bottom: 0.522vw solid transparent;
+        }
+
+        @media (max-width: 767px) {
+            font-size: 3.889vw;
+            margin-right: 0;
+            flex: 1;
+            border-bottom: 1.111vw solid transparent;
+            height: 15.556vw;
+        }
+
+        &:hover {
+            color: #ffffff;
+        }
+
+        &.active {
+            border-bottom: 0.208vw solid #fea716;
+            color: #ffffff;
+            text-shadow: 0 0 0.5px #ffffff, 0 0 0.5px #ffffff;
+
+            @media (max-width: 1365px) {
+                border-bottom: 0.293vw solid #fea716;
+            }
+
+            @media (max-width: 1024px) {
+                border-bottom: 0.522vw solid #fea716;
+            }
+
+            @media (max-width: 767px) {
+                border-bottom: 1.111vw solid #fea716;
+            }
+
+            &.clicked {
+                animation: 0.7s ease-in-out example;
+
+                @keyframes example {
+                    from {border-bottom: 0.208vw solid transparent;}
+                    to {border-bottom: 0.208vw solid #fea716;}
+                }
+
+                @media (max-width: 1365px) {
+                    border-bottom: 0.293vw solid #fea716;
+
+                    @keyframes example {
+                        from {border-bottom: 0.293vw solid transparent;}
+                        to {border-bottom: 0.293vw solid #fea716;}
+                    }
+                }
+
+                @media (max-width: 1024px) {
+                    border-bottom: 0.522vw solid #fea716;
+
+                    @keyframes example {
+                        from {border-bottom: 0.522vw solid transparent;}
+                        to {border-bottom: 0.522vw solid #fea716;}
+                    }
+                }
+
+                @media (max-width: 767px) {
+                    border-bottom: 1.111vw solid #fea716;
+
+                    @keyframes example {
+                        from {border-bottom: 1.111vw solid transparent;}
+                        to {border-bottom: 1.111vw solid #fea716;}
+                    }
+                }
+            }
+        }
+
+        &.disabled {
+            color: #ffffff38;
+            cursor: unset;
+        }
+    }
+}

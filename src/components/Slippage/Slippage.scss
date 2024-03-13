@@ -1,0 +1,183 @@
+.slippage-component {
+  margin-top: 1vw;
+  position: relative;
+  cursor: initial;
+  
+  @media (max-width: 1365px) {
+    margin-block-start: 1.544vw;
+  }
+
+  @media (max-width: 1024px) {
+    margin-block-start: 3.129vw;
+  }
+
+  @media (max-width: 767px) {
+    margin-block-start: 6.667vw;
+  }
+  .slippage-title, .slippage-error {
+    font-size: 0.625vw;
+    margin-block-end: 1.25vw;
+    display: block;
+    @media (max-width: 1365px) {
+      margin-block-end: 2.344vw;
+      font-size: 0.879vw;
+    }
+
+    @media (max-width: 1024px) {
+      margin-block-end: 3.129vw;
+      font-size: 1.564vw;
+    }
+
+    @media (max-width: 767px) {
+      margin-block-end: 6.667vw;
+      font-size: 2.778vw;
+    }
+  }
+
+  .slippage-buttons-group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .slippage-button {
+      cursor: pointer;
+      padding: 0.586vw 1.172vw;
+      border-radius: 0.293vw;
+      border: solid 2px transparent;
+      color: white;
+      background: #222540;
+      margin-inline-end: 1.172vw;
+      @media (max-width: 1365px) {
+        padding: 0.781vw 1.563vw;
+        margin-inline-end: 1.563vw;
+      }
+
+      @media (max-width: 1024px) {
+        padding: 1.043vw 2.086vw;
+        margin-inline-end: 2.086vw;
+      }
+
+      @media (max-width: 767px) {
+        padding: 2.222vw 4.444vw;
+        margin-inline-end: 4.444vw;
+      }
+      span {
+        font-size: 0.625vw;
+        line-height: 0.75;
+        @media (max-width: 1365px) {
+          font-size: 0.879vw;
+          line-height: 0.75;
+        }
+
+        @media (max-width: 1024px) {
+          font-size: 1.564vw;
+          line-height: 0.75;
+        }
+
+        @media (max-width: 767px) {
+          font-size: 2.778vw;
+          line-height: 0.75;
+        }
+      }
+      &:last-child {
+        margin-inline-end: 0;
+      }
+      &.selected {
+        border: solid 2px #f8ba15;
+      }
+    }
+
+    .input-container {
+      position: relative;
+      border-radius: 0.293vw;
+      border: solid 2px transparent;
+      @media (max-width: 1365px) {
+        border-radius: 0.391vw;
+      }
+      @media (max-width: 1024px) {
+        border-radius: 0.522vw;
+      }
+      @media (max-width: 767px) {
+        border-radius: 1.111vw;
+      }
+      &.selected {
+        border: solid 2px #f8ba15;
+        }
+      .slippage-input {
+        padding: 0.586vw 1.172vw;
+        height: 2.344vw;
+        font-size: 0.625vw;
+        border-radius: 0.293vw;
+        width: 100%;
+        line-height: 0.75;
+        box-shadow: none;
+        background-color: #222540;
+        height: fit-content;
+        border: solid 2px transparent;
+        color: white;
+        @media (max-width: 1365px) {
+          padding: 0.781vw 1.563vw;
+          height: 3.125vw;
+          font-size: 0.879vw;
+          border-radius: 0.391vw;
+        }
+        @media (max-width: 1024px) {
+          padding: 1.043vw 2.086vw;
+          height: 4.172vw;
+          font-size: 1.564vw;
+          border-radius: 0.522vw;
+        }
+        @media (max-width: 767px) {
+          padding: 2.222vw 4.444vw;
+          height: 8.889vw;
+          font-size: 2.778vw;
+          border-radius: 1.111vw;
+        }
+        &.selected {
+            border: solid 2px #f8ba15;
+          }
+        &:focus,
+        &:focus-visible,
+        &:visited {
+          outline: none;
+        }
+      }
+      .slippage-sign {
+        border-radius: 0 0.293vw 0.293vw 0;
+        padding: 0.586vw 0.879vw;
+        font-size: 0.625vw;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: fit-content;
+        height: inherit;
+        background-color: #182f5d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-transform: uppercase;
+        @media (max-width: 1365px) {
+          border-radius: 0 0.391vw 0.391vw 0;
+          padding: 0.781vw 1.172vw;
+          font-size: 0.879vw;
+        }
+        @media (max-width: 1024px) {
+          border-radius: 0 0.522vw 0.522vw 0;
+          padding: 1.043vw 1.565vw;
+          font-size: 1.564vw;
+        }
+        @media (max-width: 767px) {
+          border-radius: 0 1.111vw 1.111vw 0;
+          padding: 2.222vw 3.333vw;
+          font-size: 2.778vw;
+        }
+      }
+    }
+  }
+
+  .slippage-error  {
+    margin-block-start: 1.25vw;
+    color: white;
+  }
+}

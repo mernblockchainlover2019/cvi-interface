@@ -1,0 +1,282 @@
+.slippage-tolerance-component {
+  margin-top: 1vw;
+  position: relative;
+  cursor: initial;
+  
+  @media (max-width: 1365px) {
+    margin-block-start: 1.544vw;
+  }
+
+  @media (max-width: 1024px) {
+    margin-block-start: 3.129vw;
+  }
+
+  @media (max-width: 767px) {
+    margin-block-start: 6.667vw;
+  }
+
+  & .slippage-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    & .slippage-title, .slippage-error {
+      font-size: 0.729vw;
+
+      @media (max-width: 1365px) {
+        font-size: 1.026vw;       
+      }
+
+      @media (max-width: 1024px) {
+        font-size: 1.825vw;
+      }
+      
+      @media (max-width: 767px) {
+        font-size: 3.889vw;   
+      }
+    }
+
+    & .slippage-value {
+      font-size: 0.729vw;
+      font-weight: bold;
+      text-align: right;
+
+      @media (max-width: 1365px) {
+        font-size: 1.026vw;       
+      }
+
+      @media (max-width: 1024px) {
+        font-size: 1.825vw;
+      }
+      
+      @media (max-width: 767px) {
+        font-size: 3.889vw;   
+      }
+      
+      & .slippage-edit {
+        margin-left: 0.416vw;
+        background-color: transparent;
+        border: transparent;
+        padding: 0;
+        cursor: pointer;
+
+        @media (max-width: 1365px) { 
+          margin-left: 0.416vw;
+        }
+
+        @media (max-width: 1024px) {
+          margin-left: 0.522vw;
+        }
+
+        @media (max-width: 767px) {
+          margin-left: 0.733vw;
+        }
+
+        & .edit-icon {
+          width: 0.833vw;
+          height: 0.833vw;
+          object-fit: contain;
+
+          @media (max-width: 1365px) {
+            width: 1.172vw;
+            height: 1.172vw;   
+          }
+
+          @media (max-width: 1024px) {
+            width: 2.086vw;
+            height: 2.086vw;     
+          }
+          
+          @media (max-width: 767px) {
+            width: 4.444vw;
+            height: 4.444vw;
+          }
+        }
+      }
+    }
+  }
+
+  .slippage-buttons-group {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #1b1d38;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 0.833vw;
+    padding: 0.833vw;
+    position: absolute;
+    width: 120%;
+    z-index: 1;
+
+    @media (max-width: 1365px){   
+      border-radius: 1.172vw;
+      padding: 1.172vw;
+      width: 150%;
+    }
+
+    @media (max-width: 1024px){ 
+      border-radius: 2.086vw;
+      padding: 2.086vw;
+      width: 100%;
+    }
+
+    @media (max-width: 767px){
+      border-radius: 4.444vw;
+      padding: 4.444vw;
+      width: 100%;
+    }
+
+    .slippage-button {
+      cursor: pointer;
+      padding: 0.586vw 1.172vw;
+      border-radius: 0.417vw;
+      border: solid 2px transparent;
+      color: white;
+      width: 24%;
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.25);
+      background: #222540;
+
+      @media (max-width: 1365px) {
+        border-radius: 0.586vw;
+        padding: 0.781vw 1.563vw;
+      }
+
+      @media (max-width: 1024px) {
+        border-radius: 1.043vw;
+        padding: 1.043vw 2.086vw;
+      }
+
+      @media (max-width: 767px) {
+        border-radius: 2.222vw;
+        padding: 2.222vw 4.444vw;
+        width: 30%;
+      }
+      span {
+        font-size: 0.625vw;
+        line-height: 0.75;
+        @media (max-width: 1365px) {
+          font-size: 0.879vw;
+          line-height: 0.75;
+        }
+
+        @media (max-width: 1024px) {
+          font-size: 1.564vw;
+          line-height: 0.75;
+        }
+
+        @media (max-width: 767px) {
+          font-size: 2.778vw;
+          line-height: 0.75;
+        }
+      }
+      &:last-child {
+        margin-inline-end: 0;
+      }
+      &.selected {
+        border: solid 2px #f8ba15;
+      }
+    }
+
+    .input-container {
+      position: relative;
+      border-radius: 0.416vw;
+      border: solid 2px transparent;
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.25);
+      width: 24%;
+      @media (max-width: 1365px) {
+        border-radius: 0.586vw;
+      }
+      @media (max-width: 1024px) {
+        border-radius: 1.043vw;
+      }
+      @media (max-width: 767px) {
+        border-radius: 2.222vw;
+        width: 100%;
+        margin-top: 2.222vw;
+      }
+      &.selected {
+        border: solid 2px #f8ba15;
+        & .slippage-input {
+          text-align: left;
+        }
+      }
+      .slippage-input {
+        padding: 0.586vw 1.172vw;
+        height: 2.344vw;
+        font-size: 0.625vw;
+        border-radius: 0.293vw;
+        line-height: 0.75;
+        box-shadow: none;
+        background-color: #222540;
+        width: 100%;
+        border: solid 2px transparent;
+        color: white;
+        text-align: center;
+
+        @media (max-width: 1365px) {
+          padding: 0.781vw 1.563vw;
+          height: 3.125vw;
+          font-size: 0.879vw;
+          border-radius: 0.391vw;
+        }
+        @media (max-width: 1024px) {
+          padding: 1.043vw 2.086vw;
+          height: 4.172vw;
+          font-size: 1.564vw;
+          border-radius: 0.522vw;
+        }
+        @media (max-width: 767px) {
+          padding: 2.222vw 4.444vw;
+          height: 8.889vw;
+          font-size: 2.778vw;
+          border-radius: 1.111vw;
+        }
+
+        &::placeholder {
+          opacity: 1;
+        }
+        &.selected {
+            border: solid 2px #f8ba15;
+          }
+        &:focus,
+        &:focus-visible,
+        &:visited {
+          outline: none;
+        }
+      }
+      .slippage-sign {
+        border-radius: 0 0.293vw 0.293vw 0;
+        padding: 0.586vw 0.879vw;
+        font-size: 0.625vw;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: fit-content;
+        height: inherit;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0.6;
+        color: white;
+        text-transform: uppercase;
+        @media (max-width: 1365px) {
+          border-radius: 0 0.391vw 0.391vw 0;
+          padding: 0.781vw 1.172vw;
+          font-size: 0.879vw;
+        }
+        @media (max-width: 1024px) {
+          border-radius: 0 0.522vw 0.522vw 0;
+          padding: 1.043vw 1.565vw;
+          font-size: 1.564vw;
+        }
+        @media (max-width: 767px) {
+          border-radius: 0 1.111vw 1.111vw 0;
+          padding: 2.222vw 3.333vw;
+          font-size: 2.778vw;
+        }
+      }
+    }
+  }
+}

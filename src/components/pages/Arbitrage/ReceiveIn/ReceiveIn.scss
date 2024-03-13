@@ -1,0 +1,207 @@
+.receive-wrapper {
+    position: relative;
+    & .between-text {
+      display: flex;
+      align-items: flex-end;
+      & .statistics-spinner {
+        margin: 0 0.559vw 0 0.4vw;
+
+        @media (max-width: 1365px) {
+          margin: 0 0.659vw 0 0.466vw;
+          height: 1.099vw;
+          width: 0.44vw;
+        }
+  
+        @media (max-width: 1024px) {
+          margin: 0 1.173vw 0 0.652vw;
+          height: 1.956vw;
+          width: 0.782vw;
+        }
+        
+        @media (max-width: 767px) {
+          margin: 0 2.5vw 0 1.389vw;
+          height: 4.167vw;
+          width: 1.667vw;
+        }
+      }
+    }
+
+    & .net-amount {
+      margin-top: 1.25vw;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+
+      @media (max-width: 1365px){
+        margin-top: 1.758vw;
+      }
+      
+      @media (max-width: 1024px){
+        margin-top: 3.129vw;
+      }
+
+      @media (max-width: 767px){
+        margin-top: 6.667vw;
+      }
+
+      & .net-amount-title {
+        font-size: 0.729vw;
+
+        @media (max-width: 1365px) {
+          font-size: 1.026vw;       
+        }
+
+        @media (max-width: 1024px) {
+          font-size: 1.825vw;
+        }
+        
+        @media (max-width: 767px) {
+          font-size: 3.889vw;   
+        }
+      }
+
+      & .net-amount-value {
+        font-size: 0.729vw;
+        font-weight: bold;
+        text-align: right;
+
+        @media (max-width: 1365px) {
+          font-size: 1.026vw;       
+        }
+
+        @media (max-width: 1024px) {
+          font-size: 1.825vw;
+        }
+        
+        @media (max-width: 767px) {
+          font-size: 3.889vw;   
+        }
+      }
+
+      & .tooltip-container {
+        display: flex;
+        width: 100%;
+
+        & .tooltip-data {
+          display: flex;
+          flex-direction: column;
+          line-height: 1.71;
+          width: 100%;
+          margin-top: 5px;
+          position: relative;
+        }
+
+        & .divider {
+          width: 100%;
+          height: 1px;
+          background-color: #222540;
+          margin: 0.915vw 0 0.555vw 0;
+
+          @media (max-width: 1365px) {
+            margin: 0.915vw 0 0.555vw 0;     
+          }
+  
+          @media (max-width: 1024px) {
+            margin: 1.220vw 0 0.732vw 0;
+          }
+          
+          @media (max-width: 767px) {
+            margin: 1.627vw 0 0.978vw 0;
+          }
+        }
+      }
+    }
+
+    & .receive-title {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      margin: 1.042vw 0 0 0;
+
+      @media (max-width: 1365px) {
+        margin: 1.465vw 0 0 0;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      @media (max-width: 1024px) {
+        margin: 2.608vw 0 0 0;
+      }
+      
+      @media (max-width: 767px) {
+        margin: 5.556vw 0 0 0;
+      }
+
+      & .receive-in {
+        font-weight: normal;
+        font-size: 0.938vw;
+        line-height: 1;
+
+        @media (max-width: 1365px) {
+          font-size: 1.319vw;
+        }
+
+        @media (max-width: 1024px) {
+          font-size: 2.347vw;
+        }
+        
+        @media (max-width: 767px) {
+          font-size: 5vw;
+        }
+      }
+      & span {
+        font-size: 0.625vw;
+        margin-left: 4px;    
+  
+        @media (max-width: 1365px) {
+          font-size: 0.879vw;
+          display: flex;
+        }
+  
+        @media (max-width: 1024px) {
+          font-size: 1.565vw;
+        }
+        
+        @media (max-width: 767px) {
+          font-size: 3.333vw;
+          margin-left: 0;
+        }
+      }
+    }
+
+    & .dropdown-component {
+      &.error {
+        border-color: #222540;
+      }
+    }
+
+    .time-wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+
+      span {
+        padding: 0.625vw;
+        font-size: 0.938vw;
+        font-weight: bold;
+
+        @media (max-width: 1365px) {
+          padding: 1.172vw;
+          font-size: 1.319vw;
+        }
+
+        @media (max-width: 1024px) {
+          padding: 1.565vw;
+          font-size: 2.347vw;
+        }
+
+        @media (max-width: 767px) {
+          padding: 3.333vw;
+          font-size: 3.889vw;
+        }
+      }
+    }
+  }

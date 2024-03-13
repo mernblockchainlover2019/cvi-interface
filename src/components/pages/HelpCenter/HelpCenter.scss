@@ -1,0 +1,379 @@
+.help-center-component {
+    height: 100%;
+    color: #04050f;
+    
+    &__header {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        height: 10vw;
+        margin-bottom: 4.167vw;
+            
+        @media (max-width: 1365px){   
+            height: 14.066vw;
+            margin-bottom: 5.861vw;
+        }
+
+        @media (max-width: 1024px){ 
+            height: 20.033vw;
+            margin-bottom: 10.43vw;
+        }
+
+        @media (max-width: 767px){
+            height: 26.667vw;
+            margin-bottom: 8.889vw;
+        }
+
+        &--background {
+            position: absolute;
+            background: url('../../../images/backgrounds/header-faq.svg') no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+
+            @media (max-width: 1024px){ 
+                background-image: url('../../../images/backgrounds/header-faq-tablet.svg');
+            }
+    
+            @media (max-width: 767px){
+                background-image: url('../../../images/backgrounds/header-faq-mobile.svg');
+            }
+        }
+
+        & h2 {
+            font-size: 2.5vw;
+            font-weight: normal;
+            color: #04050f;
+            z-index: 1;
+
+            @media (max-width: 1365px){   
+                font-size: 3.516vw;
+            }
+    
+            @media (max-width: 1024px){ 
+                font-size: 6.258vw;
+            }
+    
+            @media (max-width: 767px){
+                font-size: 6.667vw;
+            }
+        }
+    }
+
+    
+    & .help-center-component__header ~ h2 {
+        font-size: 1.25vw;
+        @media (max-width: 1365px){   
+            font-size: 1.758vw;
+        }
+
+        @media (max-width: 1024px){ 
+            font-size: 3.129vw;
+        }
+
+        @media (max-width: 767px){
+            font-size: 5vw;
+        }
+    }
+    
+    & .help-center-component__header ~ h2, .help-center-component__header > h2 {
+        margin: 0 13.75vw;
+        color: #11254d;
+        font-weight: normal;
+
+        @media (max-width: 1365px){   
+            margin: 0 1.758vw;
+        }
+
+        @media (max-width: 1024px){ 
+            margin: 0 8.344vw;
+        }
+
+        @media (max-width: 767px){
+            margin: 0 6.667vw;
+        }
+    }
+
+    &__body {
+        position: relative;
+        display: flex;
+        width: 100%;
+        margin-left: 13.75vw;
+
+        @media (max-width: 1365px){   
+            margin-left: 1.758vw;
+        }
+
+        @media (max-width: 1024px){ 
+            margin-left: 8.344vw;
+            flex-direction: column;
+        }
+
+        @media (max-width: 767px){
+            margin-left: 6.667vw;
+        }
+
+        &--left, &--right {
+            max-width: 35.208vw;
+            width: 100%;
+
+            @media (max-width: 1365px){   
+                max-width: 49.524vw;
+            }
+    
+            @media (max-width: 1024px){ 
+                max-width: 88.136vw;
+            }
+    
+            @media (max-width: 767px){
+                max-width: 77.778vw;
+            }
+        }
+
+        & h3 {
+            margin-top: 2.083vw;
+            margin-bottom: 0;
+            font-size: 0.729vw;
+            font-weight: bold;
+            color: #007acb;
+
+            @media (max-width: 1365px){   
+                margin-top: 2.93vw;
+                font-size: 1.026vw;
+            }
+    
+            @media (max-width: 1024px){ 
+                margin-top: 7.301vw;
+                font-size: 1.825vw;
+            }
+    
+            @media (max-width: 767px){
+                margin-top: 6.667vw;
+                font-size: 3.889vw;  
+            }
+        }
+    }
+}
+
+
+.guides-component {
+    background-color: white;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.08);
+    margin: 5vw 13.75vw;
+    border-radius: 1.25vw;
+    padding: 2.5vw;
+
+    @media (max-width: 1365px){   
+        margin: 7.033vw 1.758vw;
+        border-radius: 1.758vw;
+        padding: 3.516vw;
+    }
+
+    @media (max-width: 1024px){ 
+        margin: 8.344vw;
+        border-radius: 3.129vw;
+        padding: 6.258vw;
+    }
+
+    @media (max-width: 767px){
+        margin: 6.667vw 4.444vw;
+        border-radius: 6.667vw;
+        padding: 6.667vw;
+    }
+
+    & > h2 {
+        font-weight: normal;
+        color: #11254d;
+        margin: 0 0 2.5vw 0;
+        font-size: 1.25vw;
+
+        @media (max-width: 1365px){   
+            margin: 0 0 3.516vw 0;
+            font-size: 1.758vw;
+        }
+
+        @media (max-width: 1024px){ 
+            margin: 0 0 6.258vw 0;
+            font-size: 3.129vw;
+        }
+
+        @media (max-width: 767px){
+            margin: 0 0 6.667vw 0;
+            font-size: 5vw;
+        }
+    }
+
+    &__guide {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2.5vw;
+
+        @media (max-width: 1365px){   
+            margin-bottom: 3.516vw;
+        }
+
+        @media (max-width: 1024px){
+            margin-bottom: 6.258vw;
+        }
+        
+        @media (max-width: 767px){
+            align-items: flex-start;
+            margin-bottom: 6.667vw;
+        }
+
+        & img {
+            width: 3.333vw;
+            height: 3.333vw;
+            margin-right: 0.833vw;
+
+            @media (max-width: 1365px){   
+                width: 4.689vw;
+                height: 4.689vw;
+                margin-right: 1.172vw;
+            }
+    
+            @media (max-width: 1024px){ 
+                width: 8.344vw;
+                height: 8.344vw;
+                margin-right: 2.086vw;
+            }
+    
+            @media (max-width: 767px){
+                width: 11.111vw;
+                height: 11.111vw;
+                margin-right: 4.444vw;
+            }
+        }
+
+        &--body {
+            & h3 {
+                font-weight: bold;
+                color: #11254d;
+                margin: 0 0 0.208vw 0;
+                font-size: 0.833vw;
+
+                @media (max-width: 1365px){   
+                    margin: 0 0 0.293vw 0;
+                    font-size: 1.172vw;
+                }
+        
+                @media (max-width: 1024px){ 
+                    margin: 0 0 0.521vw 0;
+                    font-size: 2.085vw;
+                }
+        
+                @media (max-width: 767px){
+                    margin: 0 0 1.109vw 0;
+                    font-size: 3.889vw;
+                }
+            }
+
+            & p {
+                color: #11254d;
+                margin: 0.208vw 0 0 0;
+                font-size: 0.729vw;
+
+                @media (max-width: 1365px){   
+                    font-size: 1.026vw;
+                    margin: 0.293vw 0 0 0;
+                }
+        
+                @media (max-width: 1024px){ 
+                    font-size: 1.825vw;
+                    margin: 0.522vw 0 0 0;
+                }
+        
+                @media (max-width: 767px){
+                    font-size: 3.333vw;
+                    margin: 1.111vw 0 0 0;
+                }
+            }
+        }
+    }
+}
+
+.documents-component {
+    display: flex;
+    justify-content: space-between;
+ 
+    @media (max-width: 1024px){ 
+        flex-wrap: wrap;
+    }
+
+    @media (max-width: 767px){
+       
+    }
+}
+
+.document-component {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.02);
+    }
+
+    @media (max-width: 1024px){ 
+        flex: 50%;
+        margin-top: 7.301vw;
+        &:first-child, &:nth-child(2) {
+            margin-top: 0;
+        }
+    }
+
+    @media (max-width: 767px){
+       flex: 100%;
+       margin-top: 6.667vw;
+       &:nth-child(2) {
+            margin-top: 6.667vw;
+       }
+    }
+    
+    & img {
+        width: 2.5vw;
+        height: 2.5vw;
+        margin-right: 0.833vw;
+
+        @media (max-width: 1365px){   
+            width: 3.516vw;
+            height: 3.516vw;
+            margin-right: 1.172vw;
+        }
+
+        @media (max-width: 1024px){ 
+            width: 6.258vw;
+            height: 6.258vw;
+            margin-right: 2.086vw;
+        }
+
+        @media (max-width: 767px){
+            width: 11.111vw;
+            height: 11.111vw;
+            margin-right: 4.444vw;
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+
+        & span {
+            color: black;
+            font-size: 0.833vw;
+
+            @media (max-width: 1365px){   
+                font-size: 1.172vw;
+            }
+    
+            @media (max-width: 1024px){ 
+                font-size: 2.086vw;
+            }
+    
+            @media (max-width: 767px){
+                font-size: 3.889vw;
+            }
+        }
+    }
+}

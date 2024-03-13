@@ -1,0 +1,56 @@
+.volatility-token-component {
+    padding: 2.865vw;
+    @media (max-width: 1365px) {
+        padding: 4.029vw;
+    }
+      
+    @media (max-width: 1024px) {
+        padding: 4.172vw;  
+    }
+
+    @media (max-width: 767px){
+        padding: 8.889vw;    
+    }
+
+    & h3 {
+        font-weight: bold;
+        margin: 0;
+        font-size: 1.25vw;
+
+        @media (max-width: 1365px) {
+            font-size: 1.758vw;
+        }
+          
+        @media (max-width: 1024px) {
+            font-size: 2.086vw;
+        }
+        
+        @media (max-width: 767px){
+            font-size: 4.444vw;
+        }
+    }
+
+    & p {
+        margin: 2.083vw 0 0 0;
+        font-size: 0.938vw;
+        line-height: 1.458vw;
+        
+        @media (max-width: 1365px) {
+            margin: 2.93vw 0 0 0;
+            font-size: 1.319vw;
+            line-height: 2.051vw;
+        }
+          
+        @media (max-width: 1024px) {
+            font-size: 1.825vw;
+            margin-top: 2.086vw;
+            line-height: 2.608vw;
+        }
+        
+        @media (max-width: 767px){
+            font-size: 3.889vw;
+            margin-top: 4.444vw;
+            line-height: 5.556vw;
+        }
+    }
+}

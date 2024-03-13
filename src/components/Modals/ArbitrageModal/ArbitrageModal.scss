@@ -1,0 +1,279 @@
+.arbitrage-modal {
+  & .arbitrage-title {
+    margin-block-end: 1.667vw;
+    @media (max-width: 1365px) {
+      margin-block-end: 1.563vw;
+    }
+    @media (max-width: 1024px) {
+      margin-block-end: 2.086vw;
+    }
+    @media (max-width: 767px) {
+      margin-block-end: 4.444vw;
+    }
+    
+    font-size: 1.25vw;
+    font-weight: normal;
+    @media (max-width: 1365px){   
+        font-size: 1.758vw;
+    }
+
+    @media (max-width: 1024px){ 
+        font-size: 2.346vw;
+    }
+
+    @media (max-width: 767px){
+        font-size: 5vw;
+    }
+  }
+
+  & .stat-component {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.837vw;
+    padding-bottom: 0.827vw;
+    height: 1.458vw;
+    &.low {
+      color: #f96a9a;
+    }
+
+    @media (max-width: 1365px) {
+      margin-bottom: 1.136vw;
+      padding-bottom: 1.136vw;
+      height: 2.051vw;
+    }
+
+    @media (max-width: 1024px) {
+      margin-bottom: 2.021vw;
+      padding-bottom: 2.021vw;
+      height: 3.651vw;
+    }
+    @media (max-width: 767px) {
+      flex-direction: column;
+      align-items: baseline;
+      justify-content: center;
+      height: 18vw;
+      margin-bottom: 2.222vw;
+      padding-bottom: 2.222vw;
+    }
+
+    & h2 {
+      @media (max-width: 767px) {
+        margin-top: 2px;
+        align-items: center;
+        font-size: 3.333vw;
+      }
+    }
+    &:last-child {
+      margin-bottom: 0;
+      border-bottom: 0;
+    }
+    &.nomargin {
+      margin: 0;
+    }
+
+    &.amount {
+      & p {
+        font-size: 1.042vw;
+        @media (max-width: 1365px) {
+          font-size: 1.465vw;
+        }
+        @media (max-width: 1024px) {
+          font-size: 2.608vw;
+        }
+        @media (max-width: 767px) {
+          font-size: 3.889vw;
+        }
+      }
+    }
+
+    &.low-priority {
+      border-bottom: 0;
+      margin-bottom: 0;
+      @media (max-width: 767px) {
+        padding-bottom: 0;
+        border-bottom: 0.278vw solid #2f3250;
+      }
+
+      &--header {
+        margin-top: 1.146vw;
+        @media (max-width: 1365px) {
+          margin-top: 1.612vw;
+        }
+        @media (max-width: 1024px) {
+          margin-top: 2.868vw;
+        }
+        @media (max-width: 767px) {
+          margin-top: 0;
+        }
+      }
+
+      & p {
+        font-size: 0.729vw;
+        @media (max-width: 1365px) {
+          font-size: 1.026vw;
+        }
+        @media (max-width: 1024px) {
+          font-size: 1.825vw;
+        }
+        @media (max-width: 767px) {
+          font-size: 3.333vw;
+        }
+      }
+    }
+  }
+  & .modal-checkbox {
+    margin-bottom: 0.837vw;
+    padding-bottom: 0.837vw;
+    @media (max-width: 1365px) {
+      margin-bottom: 1.136vw;
+      padding-bottom: 1.136vw;
+    }
+    @media (max-width: 1024px) {
+      margin-bottom: 2.021vw;
+      padding-bottom: 2.021vw;
+    }
+    @media (max-width: 767px) {
+      margin-bottom: 2.222vw;
+      padding-bottom: 2.222vw;
+    }
+  }
+  & .modal-note {
+    font-size: 0.625vw;
+    line-height: 1.33;
+    margin: 1.042vw 0 0.833vw 0;
+    @media (max-width: 1365px) {
+      font-size: 0.879vw;
+      margin: 1.465vw 0 1.172vw 0;
+    }
+    @media (max-width: 1024px) {
+      font-size: 1.565vw;
+      margin: 2.608vw 0 2.086vw 0;
+    }
+    @media (max-width: 767px) {
+      font-size: 3.333vw;
+      margin: 5.556vw 0 4.444vw 0;
+    }
+  }
+  & .no-liquidity-msg {
+    color: white;
+    width: 100%;
+    z-index: 200;
+    background: rgba(254, 167, 23 ,0.03);
+    border: 1px solid #fea717;
+    padding: 0.625vw;
+    border-radius: 0.625vw;
+    font-size: 0.629vw;
+    line-height: 1.25vw;
+    margin: 0.837vw 0 1.674vw 0;
+      @media (max-width: 1365px) {
+        margin: 1.136vw 0 2.272vw 0;
+        font-size: 0.879vw;
+        padding: 0.879vw;
+        border-radius: 0.879vw;
+        line-height: 1.758vw;
+      }
+      @media (max-width: 1024px) {
+        margin: 2.021vw 0 4.042vw 0;
+        line-height: 3.129vw;
+        font-size: 1.565vw;
+        padding: 1.565vw;
+        border-radius: 1.565vw;
+      }
+      @media (max-width: 767px) {
+        margin: 2.222vw 0 4.444vw 0;
+        line-height: 6.667vw;
+        font-size: 3.333vw;   
+        padding: 3.333vw;
+        border-radius: 3.333vw;
+      }
+    }
+
+  & .button-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  & .button {
+    text-transform: uppercase;
+    background: #fea716;
+    border: 1px solid #fea716;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease-in-out;
+    width: calc(50% - 0.178vw);
+
+    @media (max-width: 1365px){
+      margin-top: 1.172vw;
+      width: calc(50% - 0.183vw);
+    }
+    @media (max-width: 1024px){
+      margin-top: 2.086vw;
+      width: calc(50% - 0.244vw);
+    }
+    @media (max-width: 767px){
+      margin-top: 4.444vw;
+      margin-top: 1.172vw;
+      width: 100%;
+    }
+
+    &.secondary {
+      background: #2f3250;
+      border: 1px solid #2f3250;
+
+      &:hover:not([disabled]) {
+        background-color: transparent;
+        border: 1px solid #2f3250;
+
+        &:active {
+            color: #2f3250;
+            background-color: transparent;
+        }
+      }
+    }
+    &.receive_now {
+      background-color: #00a389;
+      border: 1px solid #00a389;
+
+      &:hover:not([disabled]) {
+        background-color: rgba(0, 122, 203, 0.2);
+        border: 1px solid #00a389;
+
+        &:active {
+            color: #00a389;
+            background-color: transparent;
+        }
+      }
+    }
+    &.disabled {
+      background: #2f3250;
+    }
+  }
+  & .fullfill-countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & > * {
+      margin-inline-end: 4px;
+      &:last-child {
+        margin-inline-end: 0;
+      }
+    }
+
+    b, small {
+      font-weight: bold;
+      font-size: 0.833vw;
+      @media (max-width: 1365px){
+        font-size: 1.172vw;
+      }
+      @media (max-width: 1024px){
+        font-size: 2.086vw;
+      }
+      @media (max-width: 767px){
+        font-size: 3.21vw;
+      }
+    }
+  }
+}

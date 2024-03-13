@@ -1,0 +1,11 @@
+.arbitrage-mint-burn-form-component {
+    height: 100%;
+    width: 100%;
+    
+    & .action-controller_component {
+        & .input-group-component.amount-component__group {
+            margin-top: 0;
+        }
+    }
+
+}

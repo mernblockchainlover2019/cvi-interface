@@ -1,0 +1,44 @@
+.arbitrage-section-component {
+    height: 100%;
+    padding: 2.917vw 0 2.917vw 2.917vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#1b1d38;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    
+    @media (max-width: 1365px){
+        padding: 4.103vw;
+    }
+
+    @media (max-width: 1024px){ 
+        padding: 3.129vw;
+    }
+
+    @media (max-width: 767px){ 
+        padding: 4.444vw;
+    }
+
+    & > .details-component {
+        background-color: transparent;
+        max-width: 100%;
+        flex: 30% 1;
+        height: 100%;
+
+        & .details-component__container {
+            border-radius: 0.417vw;
+            background-color: #222540;
+            @media (max-width: 1365px) {
+                border-radius: 0.586vw;
+            }
+      
+            @media (max-width: 1024px) {
+                border-radius: 1.043vw;
+            }
+            
+            @media (max-width: 767px) {
+                border-radius: 2.222vw;
+            }
+        }
+    }
+}

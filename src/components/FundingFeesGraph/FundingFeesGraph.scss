@@ -1,0 +1,80 @@
+#funding-fees-graph { 
+  position: relative;
+  transform: translateX(20px) scale(0.9);
+
+  .highcharts-label .highcharts-tooltip-header {
+    transform: translateY(-10px);
+   
+    & span {
+       background-color: black;
+       padding: 5px 17px;
+       border: 1px solid #007acb;
+       border-radius: 10px;
+    }
+   }
+   
+   .highcharts-tooltip-box  { 
+       &:not(.highcharts-tooltip-header) {
+           transform: translate(12px, 0);
+       }
+   
+       & span {
+           background-color: black;
+           padding: 5px 17px;
+           border: 1px solid #007acb;
+           border-radius: 10px;
+       }
+   }
+
+  svg:not(:root) { 
+    overflow: unset;
+  }
+
+  .highcharts-grid-line {
+    &:last-child {
+      transform: scaleX(1.06) translateX(-33px);
+
+      @media (max-width: 1365px) {
+        transform: none;
+      }
+    }
+  }
+
+  & .highcharts-label {
+    & span {
+      @media (max-width: 767px) {
+        transform: translateX(-28px);
+      }
+    }
+  }
+}
+
+.highcharts-yaxis-labels {
+  left: -13px !important;
+
+  & span {
+    left: 0 !important;
+  }
+}
+
+.highcharts-container {
+  padding-left: 11px;
+  margin: 0 auto;
+
+  @media (max-width: 767px) {
+    padding: 0;
+  }
+}
+
+.highcharts-xaxis-labels {
+  z-index: -1;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  
+  & span {
+     display: inline-block;
+     margin-left: 8px !important;
+     margin-top: 11px !important;
+  }
+}

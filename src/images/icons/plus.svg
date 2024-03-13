@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="plus_blue" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:none}
+        </style>
+    </defs>
+    <path id="Rectangle_546" d="M0 0H24V24H0z" class="cls-1"/>
+    <g id="plus_yellow" transform="translate(-388 -370.5)">
+        <g id="Rectangle_546-2">
+            <path id="Rectangle_2604" d="M0 0H24V24H0z" class="cls-1" transform="translate(388 370.5)"/>
+        </g>
+        <g id="Ellipse_7-2">
+            <circle id="Ellipse_232" cx="12" cy="12" r="12" fill="#007acb" transform="translate(388 370.5)"/>
+        </g>
+        <path id="Path_5760" fill="#fff" d="M405.041 381.5H401v-4.041a1 1 0 0 0-2 0v4.041h-4.041a1 1 0 0 0 0 2H399v4.041a1 1 0 0 0 2 0V383.5h4.041a1 1 0 0 0 0-2z"/>
+    </g>
+</svg>

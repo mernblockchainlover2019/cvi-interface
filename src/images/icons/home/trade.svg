@@ -1,0 +1,13 @@
+<svg data-name="trade icon" xmlns="http://www.w3.org/2000/svg" width="72" height="72">
+    <g data-name="Group 8105">
+        <path data-name="Path 5999" d="M36 6A30 30 0 1 1 6 36 30.034 30.034 0 0 1 36 6m0-6a36 36 0 1 0 36 36A36 36 0 0 0 36 0z" style="fill:#f8ba15"/>
+    </g>
+    <g data-name="Group 8108">
+        <g data-name="Group 8106">
+            <path data-name="Path 6000" d="M42.955 21.4H8.209a3 3 0 0 1 0-6h27.5L31.9 11.593a3 3 0 1 1 4.242-4.242l8.931 8.928a3 3 0 0 1-2.118 5.121z" transform="translate(10.418 12.941)" style="fill:#007acb"/>
+        </g>
+        <g data-name="Group 8107">
+            <path data-name="Path 6001" d="M17.14 27.481a2.979 2.979 0 0 1-2.121-.879l-8.931-8.928a3 3 0 0 1 2.121-5.121h34.746a3 3 0 0 1 0 6h-27.5l3.81 3.807a3 3 0 0 1-2.121 5.121z" transform="translate(10.417 25.106)" style="fill:#2bbede"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,190 @@
+.sub-navbar-component {
+    height: 3.75vw;
+    background-color: #2b387c;
+    
+    @media (max-width: 1365px) { 
+        height: 5.275vw;
+    }
+
+    @media (max-width: 1024px) {
+        height: 9.387vw;
+    }
+
+
+    @media (max-width: 767px) {
+        margin: 0 6.667vw;
+        border-radius: 2.222vw;
+        background-color: #182f5d;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    & .sub-navbar {
+        height: 100%;
+
+        & .tabs-form-component__header {
+            background-color: transparent;
+            height: 100%;
+        }
+       
+        & .tabs-component  {
+            display: flex;
+            align-items: center;
+            gap: 0.586vw;
+            background-color: #0f112d;
+            margin: 0 1.667vw;
+            border-radius: 0.533vw;
+            height: 2.5vw;
+            padding: 0 0.248vw 0 0.248vw;
+            transition: font-weight 1s ease-in-out;
+
+            @media (max-width: 1365px) {
+                gap: 0.825vw;
+                margin: 0 2.344vw;
+                border-radius: 0.750vw;
+                height: 3.516vw;
+                padding: 0 0.349vw 0 0.349vw;
+            }
+    
+            @media (max-width: 1024px) {
+                gap: 1.1vw;
+                margin: 0 3.129vw;
+                border-radius: 1vw;
+                height: 6.258vw;
+                padding: 0 0.465vw 0 0.465vw;
+            }
+
+            @media (max-width: 767px){
+                padding: 0 4.444vw;
+                border-bottom: 0;
+                background-color: #0f112d;
+                border: 0;
+                height: auto;
+            }
+
+            & .tabs-component__tab {
+                text-transform: capitalize;
+                padding: 0;
+                font-size: 0.833vw;
+                font-weight: normal;
+                line-height: 1.25vw;
+                height: 2.083vw;
+                margin-right: 0;
+                min-width: 9.5vw;
+                letter-spacing: 0.3px;
+                color: rgba(white, 1);
+                border-radius: 0.469vw;
+                border: 1px solid transparent;
+                transition: 0.4s background-color ease-in-out;
+                border-bottom: 0.208vw solid transparent;
+                border-top: 0.208vw solid transparent;
+
+                @media (max-width: 1365px) {
+                    border-radius: 0.659vw;
+                    font-size: 1.172vw;
+                    line-height: 1.758vw;
+                    height: 2.93vw;
+                    margin-right: 0;
+                    min-width: 14.549vw;
+                    border-bottom: 0.293vw solid transparent;
+                    border-top: 0.293vw solid transparent;
+                }
+    
+                @media (max-width: 1024px) {
+                    border-radius: 0.879vw;
+                    font-size: 2.086vw;
+                    line-height: 3.129vw;
+                    height: 5.214vw;
+                    min-width: 24.774vw;
+                    border-bottom: 0.522vw solid transparent;
+                    border-top: 0.522vw solid transparent;
+                }
+                
+                @media (max-width: 767px){
+                    padding: 0;
+                	border: 0;
+                    font-size: 3.889vw;
+                    line-height: 0;
+                    height: auto;
+                    display: flex;
+                    align-items: center;
+                    border-bottom: 1.111vw solid transparent;
+                    border-top: 1.111vw solid transparent;
+                }
+
+                &:hover:not(.active) {
+                    border: 1px solid #1b1d38;
+                    background-color: rgba(254, 167, 22, 0.2);
+                    border-radius: 0.469vw;
+
+                    @media (max-width: 1365px) {
+                        border-radius: 0.659vw;
+                    }
+
+                    @media (max-width: 1024px) {
+                        border-radius: 0.879vw;
+                    }
+                }
+
+                &:active {
+                    opacity: 1;
+                }
+
+                &.active {
+                    border-radius: 0.469vw;
+                    background-color: #fea716;
+                    text-shadow: 1px 0 0 currentColor;
+                    opacity: 1;
+                    color: white;
+                    letter-spacing: 0.3px;
+
+                    @media (max-width: 1365px) {
+                        border-radius: 0.659vw;
+                    }
+
+                    @media (max-width: 1024px) {
+                        border-radius: 0.879vw;
+                    }
+
+                    @media (max-width: 767px){
+                    	background-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ethereum-main-address-component {
+    font-weight: normal;
+    color: white;
+    font-size: 0.625vw;
+
+    @media (max-width: 1365px){   
+        font-size: 0.879vw;     
+    }
+
+    @media (max-width: 1024px){ 
+        font-size: 1.565vw;
+    }
+
+    @media (max-width: 767px){
+        font-size: 3.333vw;  
+    }
+
+    & a {
+        color: #fea716;
+        font-weight: bold;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            color: #f8ba15;
+
+            &:active {
+                opacity: 0.7;
+                color: #fea716;
+            }
+        }
+    }
+}

@@ -1,0 +1,328 @@
+[
+    {
+        "name": "GOVI",
+        "events": [
+            "Approval",
+            "OwnershipTransferred",
+            "Transfer"
+        ]
+    },
+    {
+        "name": "USDT",
+        "events": [
+            "Approval",
+            "OwnershipTransferred",
+            "Transfer"
+        ]
+    },
+    {
+        "name": "USDTPlatform",
+        "events": [
+            "Approval",
+            "ClosePosition",
+            "Deposit",
+            "LiquidatePosition",
+            "OpenPosition",
+            "OwnershipTransferred",
+            "Transfer",
+            "Withdraw"
+        ]
+    },
+    {
+        "name": "FeesCalculator",
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    {
+        "name": "FeesModel",
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    {
+        "name": "Liquidation",
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    {
+        "name": "CVIOracle",
+        "events": []
+    },
+    {
+        "name": "Rewards",
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    {
+        "name": "USDTLPStakingRewards",
+        "events": [
+            "OwnerChanged",
+            "OwnerNominated",
+            "PauseChanged",
+            "Recovered",
+            "RewardAdded",
+            "RewardPaid",
+            "RewardsDurationUpdated",
+            "Staked",
+            "Withdrawn"
+        ]
+    },
+    {
+        "name": "COTIETHStakingRewards",
+        "events": [
+            "OwnerChanged",
+            "OwnerNominated",
+            "PauseChanged",
+            "Recovered",
+            "RewardAdded",
+            "RewardPaid",
+            "RewardsDurationUpdated",
+            "Staked",
+            "Withdrawn"
+        ]
+    },
+    {
+        "name": "GOVIETHStakingRewards",
+        "events": [
+            "OwnerChanged",
+            "OwnerNominated",
+            "PauseChanged",
+            "Recovered",
+            "RewardAdded",
+            "RewardPaid",
+            "RewardsDurationUpdated",
+            "Staked",
+            "Withdrawn"
+        ]
+    },
+    {
+        "name": "Staking",
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    {
+        "name": "TestnetOracle",
+        "events": [
+            "AnswerUpdated",
+            "NewRound",
+            "OwnershipTransferred"
+        ]
+    },
+    {
+        "name": "CVIFeedOracle",
+        "events": [
+            "AnswerUpdated",
+            "NewRound",
+            "OwnershipTransferred"
+        ]
+    },
+    {
+        "name": "UNIV2COTIETH",
+        "events": [
+            "Approval",
+            "Burn",
+            "Mint",
+            "Swap",
+            "Sync",
+            "Transfer"
+        ]
+    },
+    {
+        "name": "UNIV2GOVIETH",
+        "events": [
+            "Approval",
+            "Burn",
+            "Mint",
+            "Swap",
+            "Sync",
+            "Transfer"
+        ]
+    },
+    {
+        "name": "GOVIAirdrop",
+        "events": [
+            "OwnershipTransferred",
+            "TokenDistributed"
+        ]
+    },
+    {
+        "name": "PositionRewards",
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    {
+        "name": "CVIOracle2",
+        "events": []
+    },
+    {
+        "name": "FeesCalculatorV2",
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    {
+        "name": "FeesModelV2",
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    {
+        "name": "WETH",
+        "events": [
+            "Approval",
+            "Transfer",
+            "Deposit",
+            "Withdrawal"
+        ]
+    },
+    {
+        "name": "FeesCalculatorV3",
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    {
+        "name": "CVIOracleV3",
+        "events": []
+    },
+    {
+        "name": "PositionRewardsV2",
+        "events": [
+            "Claimed",
+            "OwnershipTransferred"
+        ]
+    },
+    {
+        "name": "ETHPlatform",
+        "events": [
+            "Approval",
+            "ClosePosition",
+            "Deposit",
+            "LiquidatePosition",
+            "OpenPosition",
+            "OwnershipTransferred",
+            "Transfer",
+            "Withdraw"
+        ]
+    },
+    {
+        "name": "ETHLPStakingRewards",
+        "events": [
+            "OwnerChanged",
+            "OwnerNominated",
+            "PauseChanged",
+            "Recovered",
+            "RewardAdded",
+            "RewardPaid",
+            "RewardsDurationUpdated",
+            "Staked",
+            "Withdrawn"
+        ]
+    },
+    {
+        "name": "ETHStakingProxy",
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    {
+        "name": "SLPCOTIETH",
+        "events": [
+            "Approval",
+            "Burn",
+            "Mint",
+            "Swap",
+            "Sync",
+            "Transfer"
+        ]
+    },
+    {
+        "name": "SLPGOVIETH",
+        "events": [
+            "Approval",
+            "Burn",
+            "Mint",
+            "Swap",
+            "Sync",
+            "Transfer"
+        ]
+    },
+    {
+        "name": "COTIETHSLPStakingRewards",
+        "events": [
+            "OwnerChanged",
+            "OwnerNominated",
+            "PauseChanged",
+            "Recovered",
+            "RewardAdded",
+            "RewardPaid",
+            "RewardsDurationUpdated",
+            "Staked",
+            "Withdrawn"
+        ]
+    },
+    {
+        "name": "GOVIETHSLPStakingRewards",
+        "events": [
+            "OwnerChanged",
+            "OwnerNominated",
+            "PauseChanged",
+            "Recovered",
+            "RewardAdded",
+            "RewardPaid",
+            "RewardsDurationUpdated",
+            "Staked",
+            "Withdrawn"
+        ]
+    },
+    {
+        "name": "RHEGIC2ETHStakingRewards",
+        "events": [
+            "OwnerChanged",
+            "OwnerNominated",
+            "PauseChanged",
+            "Recovered",
+            "RewardAdded",
+            "RewardPaid",
+            "RewardsDurationUpdated",
+            "Staked",
+            "Withdrawn"
+        ]
+    },
+    {
+        "name": "UNIV2RHEGIC2ETH",
+        "events": [
+            "Approval",
+            "Burn",
+            "Mint",
+            "Swap",
+            "Sync",
+            "Transfer"
+        ]
+    },
+    {
+        "name": "UniswapV2Factory",
+        "events": [
+            "PairCreated"
+        ]
+    },
+    {
+        "name": "UNIV2",
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    {
+        "name": "ERC20",
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    }
+]

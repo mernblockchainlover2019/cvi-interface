@@ -1,0 +1,62 @@
+.mint-v2-component {
+    & .stat-component {
+        & h2 {
+            font-size: 0.729vw;
+      
+            @media (max-width: 1365px) {
+              font-size: 1.026vw;
+            }
+      
+            @media (max-width: 1024px) {
+              font-size: 1.825vw;
+            }
+            
+            @media (max-width: 767px) {
+              font-size: 3.889vw;
+            }
+        }
+    }
+
+    & .slippage-tolerance-component {
+        margin-bottom: 0.837vw;
+        padding-bottom: 0.827vw;
+        margin-top: 0;
+        line-height: 1;
+        
+        @media (max-width: 1365px) {
+            margin-bottom: 1.136vw;
+            padding-bottom: 1.136vw;
+        }
+
+        @media (max-width: 1024px) {
+            margin-bottom: 2.021vw;
+            padding-bottom: 2.021vw;
+        }
+        @media (max-width: 767px) {
+            margin-bottom: 2.222vw;
+            padding-bottom: 2.222vw;
+        }
+
+        & .slippage-buttons-group {
+            width: 100%;
+        }
+    }
+
+    & .expected-tokens-component {
+        margin: 0;
+        line-height: 1;
+
+        & .expected-token-amount {
+            margin-block-end: 0.837vw;
+            @media (max-width: 1365px) {
+                margin-block-end: 1.136vw;
+            }
+            @media (max-width: 1024px) {
+                margin-block-end: 2.021vw;
+            }
+            @media (max-width: 767px) {
+                margin-block-end: 2.222vw;
+            }
+        }
+    }
+}

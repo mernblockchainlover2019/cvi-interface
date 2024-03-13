@@ -1,0 +1,168 @@
+.tooltip {
+    margin-left: 0.156vw;
+
+    @media (max-width: 1365px){
+    	margin-left: 0.22vw;
+    }
+
+    @media (max-width: 1024px){
+    	margin-left: 0.391vw;
+    }
+
+    @media (max-width: 767px){
+    	margin-left: 0.833vw;
+    }
+
+    display: inline-block;
+
+    
+    & img {
+        width: 0.833vw;
+        height: 0.833vw;
+
+        @media (max-width: 1365px){
+            width: 1.172vw;
+            height: 1.172vw;
+        }
+
+        @media (max-width: 1024px){
+            width: 2.086vw;
+            height: 2.086vw;
+        }
+
+        @media (max-width: 767px){
+            width: 4.444vw;
+            height: 4.444vw;
+        }
+    }
+    
+    &:hover {
+        & .tooltip__info {
+            transform: translateY(0.781vw);
+            @media (max-width: 1365px){   
+                transform: translateY(1.099vw);
+            }
+        
+            @media (max-width: 1024px){ 
+                transform: translateY(1.956vw);
+            }
+
+            @media (max-width: 767px){
+                transform: translateY(4.167vw);
+            }  
+
+            > div {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                width: 100%;
+                position: relative;
+                text-align: left;
+            }
+        }
+
+        .tooltip-avatar {
+            position: relative;
+            cursor: pointer;
+
+            &::before {
+                content: " ";
+                width: 0; 
+                height: 0; 
+                position: absolute;
+                z-index: 1;
+                border-left: 0.729vw solid transparent;
+                border-right: 0.729vw solid transparent;
+                border-bottom: 0.833vw solid black;
+                top: 1.198vw;
+                left: -0.26vw;
+
+                @media (max-width: 1365px){   
+                    border-left: 1.026vw solid transparent;
+                    border-right: 1.026vw solid transparent;
+                    border-bottom: 1.172vw solid black;
+                    top: 1.685vw;
+                    left: -0.366vw;
+                }
+
+                @media (max-width: 1024px){ 
+                    border-left: 1.825vw solid transparent;
+                    border-right: 1.825vw solid transparent;
+                    border-bottom: 2.086vw solid black;
+                    top: 2.738vw;
+                    left: -0.652vw;
+                }
+
+                @media (max-width: 767px){
+                    border-left: 3.889vw solid transparent;
+                    border-right: 3.889vw solid transparent;
+                    border-bottom: 4.444vw solid black;
+                    top: 5.833vw;
+                    left: -1.389vw;
+                }
+            }
+        }
+    }
+
+    &__info {
+        z-index: 999;
+        position: absolute;
+        width: 100%;
+        max-width: 100%;
+        white-space: break-spaces;
+        margin: 0 0.313vw;
+        
+        @media (max-width: 1365px){   
+            margin: 0 0.44vw;    
+        }
+
+        @media (max-width: 1024px){ 
+            margin: 0 0.782vw;
+        }
+
+        @media (max-width: 767px){
+            margin: 0 1.667vw;
+        }
+
+        &:hover {
+            > div {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+            }
+        }
+
+        > div {
+            background-color: #04050f;
+            font-weight: normal;
+            color: white;
+            z-index: 1;
+            display: none;
+            border-radius: 0.521vw;
+            font-size: 0.729vw;
+            line-height: 1.042vw;
+            padding: 1.042vw 1.25vw;
+            
+            @media (max-width: 1365px){   
+                border-radius: 0.733vw;
+                font-size: 1.026vw;
+                line-height: 1.465vw;
+                padding: 1.465vw 1.758vw;
+            }
+
+            @media (max-width: 1024px){ 
+                border-radius: 1.304vw;
+                font-size: 1.825vw;
+                line-height: 2.608vw;
+                padding: 2.608vw 3.129vw;
+            }
+
+            @media (max-width: 767px){
+            	border-radius: 2.778vw;
+                font-size: 3.889vw;
+                line-height: 5.556vw;
+                padding: 5.556vw 6.667vw;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+#vix-graph {
+  position: relative;
+  transform: translateX(20px) scale(0.9);
+
+  @media (max-width: 767px) {
+    background-position-x: calc(50% - 24px);
+    background-size: 117px;
+  }
+}
+
+.graph-preload {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+
+  & span {
+    color: rgba(white, 0.5);
+  }
+}

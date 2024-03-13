@@ -1,0 +1,103 @@
+.select-leverage-component {
+    & h2 {
+        font-weight: normal;
+        font-size: 0.938vw;
+        margin: 1.042vw 0 0.833vw 0;
+
+        @media (max-width: 1365px){
+            font-size: 1.319vw;
+            margin: 1.465vw 0 1.172vw 0;
+        }
+
+        @media (max-width: 1024px){
+        	font-size: 2.347vw;
+            margin: 2.608vw 0 2.086vw 0;
+        }
+
+        @media (max-width: 767px){
+        	font-size: 5vw;
+            margin: 5.556vw 0 4.444vw 0;
+        }
+    }
+
+    & .tabs-component {
+        &.leverage {
+            padding: 0;
+
+            .tabs-component__tab {
+                width: 2.5vw;
+                height: 2.5vw;
+                font-size: 0.729vw;
+                border: 0.204vw solid transparent;
+                margin-right: 0.833vw;
+                border-radius: 100%;
+                background-color: #182f5d;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: normal;
+                line-height: 1;
+                transition: all 0.2s ease-in-out;
+
+                @media (max-width: 1365px){
+                    width: 3.516vw;
+                    height: 3.516vw;
+                    font-size: 1.026vw;
+                    border: 0.247vw solid transparent;
+                    margin-right: 1.172vw;
+                }
+        
+                @media (max-width: 1024px){
+                    width: 6.258vw;
+                    height: 6.258vw;
+                    font-size: 1.825vw;
+                    border: 0.361vw solid transparent;
+                    margin-right: 2.086vw;
+                }
+        
+                @media (max-width: 767px){
+                    max-width: 13.333vw;
+                    height: 13.333vw;
+                    font-size: 3.889vw;
+                    border: 0.656vw solid transparent;
+                    margin-right: 4.444vw;
+                }
+
+                &.active {
+                    transition: all 0.1s ease;
+                    border: 0.204vw solid #f8ba15;
+
+                    @media (max-width: 1365px){
+                        border: 0.247vw solid #f8ba15;
+                    }
+
+                    @media (max-width: 1024px){
+                        border: 0.361vw solid #f8ba15;
+                    }
+
+                    @media (max-width: 767px){
+                        border: 0.656vw solid #f8ba15;
+                    }
+                }
+
+                &:hover:not(.active):not(:disabled) {
+                    border: 0.204vw solid #f8ba15;
+                    background-color: #0f112d;
+                    color: #f8ba15;
+
+                    @media (max-width: 1365px){
+                        border: 0.247vw solid #f8ba15;
+                    }
+
+                    @media (max-width: 1024px){
+                        border: 0.361vw solid #f8ba15;
+                    }
+
+                    @media (max-width: 767px){
+                        border: 0.656vw solid #f8ba15;
+                    }
+                }
+            }
+        }
+    }
+}

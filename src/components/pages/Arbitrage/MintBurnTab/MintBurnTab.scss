@@ -1,0 +1,121 @@
+.mint-burn-tab-component {
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 24px;
+    height: 2.5vw;
+    
+    @media (max-width: 1365px) { 
+        height: 3.516vw;
+    }
+
+    @media (max-width: 1024px) {
+        height: 6.258vw;
+    }
+
+    @media (max-width: 767px) {
+        height: 13.333vw;
+    }
+
+    & .sub-navbar {
+        height: 100%;
+        width: 100%;
+
+        & .tabs-form-component__header {
+            background-color: transparent;
+            height: 100%;
+            width: 100%;
+        }
+       
+        & .tabs-component  {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+            background-color: #0f112d;
+            padding: 4px;
+            border-radius: 0.416vw;
+
+            @media (max-width: 1365px) { 
+                border-radius: 0.416vw;
+            }
+    
+            @media (max-width: 1024px) {
+                border-radius: 0.522vw;
+            }
+
+            @media (max-width: 767px) {
+                border-radius: 0.733vw;
+            }
+
+            & .tabs-component__tab {
+                text-transform: capitalize;
+                border-radius: 0.208vw;
+                padding: 0;
+                border: 0;
+                height: 100%;
+                font-size: 16px;
+                font-weight: normal;
+                line-height: 1.25vw;
+                margin-right: 0;
+                transition: 0.2s all;
+                min-width: 7.5vw;
+                width: 49%;
+                transition: 0.4s background-color ease-in-out;
+                color: rgba(white, 0.75);
+                
+                @media (max-width: 1365px) {
+                    border-radius: 0.659vw;
+                    line-height: 1.758vw;
+                    margin-right: 0;
+                    min-width: 10.549vw;
+                }
+    
+                @media (max-width: 1024px) {
+                    border-radius: 0.879vw;
+                    line-height: 3.129vw;
+                    min-width: 18.774vw;
+                }
+
+                &:hover:not(.active) {
+                    border: 1px solid #1b1d38;
+                    background-color: rgba(254, 167, 22, 0.2);
+                    border-radius: 0.469vw;
+
+                    @media (max-width: 1365px) {
+                        border-radius: 0.659vw;
+                    }
+
+                    @media (max-width: 1024px) {
+                        border-radius: 0.879vw;
+                    }
+                }
+
+                &:active {
+                    opacity: 1;
+                }
+
+                &.active {
+                    border-radius: 0.469vw;
+                    background-color: #fea716;
+                    text-shadow: 1px 0 0 currentColor;
+                    opacity: 1;
+                    color: white;
+                    letter-spacing: 0.3px;
+
+                    @media (max-width: 1365px) {
+                        border-radius: 0.659vw;
+                    }
+
+                    @media (max-width: 1024px) {
+                        border-radius: 0.879vw;
+                    }
+
+                    &.clicked {
+                        animation: none;
+                    }
+                }
+            }
+        }
+    }
+}

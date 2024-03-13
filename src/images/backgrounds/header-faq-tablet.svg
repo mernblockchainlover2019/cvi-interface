@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1024" height="192" viewBox="0 0 1024 192">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y1=".113" y2=".922" gradientUnits="objectBoundingBox">
+            <stop offset=".1" stop-color="#264fa1"/>
+            <stop offset=".484" stop-color="#288ec3"/>
+            <stop offset=".8" stop-color="#2bbede"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" x1=".5" x2=".5" y1=".946" y2=".188" xlink:href="#linear-gradient"/>
+        <clipPath id="clip-path">
+            <path id="Rectangle_2607" fill="#ecf6f8" d="M0 0H1024V192H0z" transform="translate(0 80)"/>
+        </clipPath>
+        <style>
+            .cls-7{fill:#264fa1}
+        </style>
+    </defs>
+    <g id="header_bg_faq_tablet" transform="translate(0 -80)">
+        <path id="Rectangle_2606" fill="#fafeff" d="M0 0H1024V192H0z" transform="translate(0 80)"/>
+        <g id="Mask_Group_1" clip-path="url(#clip-path)">
+            <g id="Group_7863" opacity="0.1" transform="translate(343.4 -233.316)">
+                <g id="Group_6110">
+                    <path id="Path_4038" fill="url(#linear-gradient)" d="M513.394 1110.943c-23.221 0-48.277-18.429-48.277-48.2v-98.957L769.9 764.414 467.283 567.259V413.141c0-12.176 10.26-19.711 19.761-19.711a19.167 19.167 0 0 1 10.863 3.417L984.353 724.49a48.078 48.078 0 0 1-.057 79.789L540 1102.662a47.032 47.032 0 0 1-26.6 8.281z" transform="translate(-324.972 -393.431)"/>
+                    <path id="Path_4039" fill="url(#linear-gradient-2)" d="M904.668 1138.45a47.05 47.05 0 0 1-26.661-8.316L435.879 832.34a48.077 48.077 0 0 1 .054-79.791l488.586-328.121a19.156 19.156 0 0 1 10.834-3.4c9.5 0 19.763 7.54 19.763 19.712v152.307L650.333 792.412l302.613 197.155v100.685a47.32 47.32 0 0 1-14.664 34.644 49.259 49.259 0 0 1-33.61 13.554z" transform="translate(-414.657 -344.381)"/>
+                </g>
+                <g id="Group_6111" transform="translate(141.885 155.089)">
+                    <path id="Path_4040" d="M605.364 565.5l141.156 91.944-140.132 94.075-140.646-94.674z" class="cls-7" transform="translate(-465.742 -242.676)"/>
+                    <path id="Path_4041" d="M648.695 635.288l-141.158-91.946 140.134-94.074 140.647 94.672z" class="cls-7" transform="translate(-391.458 -449.269)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
